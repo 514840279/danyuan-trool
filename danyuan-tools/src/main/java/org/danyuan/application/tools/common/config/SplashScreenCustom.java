@@ -1,4 +1,4 @@
-package org.danyuan.application.tools.config;
+package org.danyuan.application.tools.common.config;
 
 import de.felixroske.jfxsupport.SplashScreen;
 import javafx.scene.Parent;
@@ -22,6 +22,6 @@ public class SplashScreenCustom extends SplashScreen {
 
 	@Override
 	public String getImagePath() {
-		return "/images/splash.gif";
+		return "/static/dist/imgs/splash.gif";
 	}
 }

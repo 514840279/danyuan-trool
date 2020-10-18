@@ -1,4 +1,9 @@
 user:
-  develops:
+  developers:
    - username: wth
-     webset: 
+     webset: "https://github.com/514840279"
+     description: "程序创建者"
+     qq: "514840279"
+     email: "514840279@qq.com"
+     skills: java,python,vue,...
+     

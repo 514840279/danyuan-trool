@@ -1,30 +1,18 @@
 package org.danyuan.application;
 
-import org.danyuan.application.tools.view.MainView;
-import org.springframework.boot.SpringApplication;
+import org.danyuan.application.tools.common.config.SplashScreenCustom;
+import org.danyuan.application.tools.view.LoginView;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.ApplicationContext;
+import org.springframework.boot.context.properties.EnableConfigurationProperties;
 
 import de.felixroske.jfxsupport.AbstractJavaFxApplicationSupport;
-import javafx.fxml.FXMLLoader;
 
 @SpringBootApplication
+@EnableConfigurationProperties
 public class ToolsApplication extends AbstractJavaFxApplicationSupport {
-	
-	public static ApplicationContext applicationContext;
-	
-	private static FXMLLoader loadFxml(String fxmlPath) {
-		FXMLLoader fxmlLoader = new FXMLLoader();
-		fxmlLoader.setLocation(ToolsApplication.class.getResource(fxmlPath));
-		fxmlLoader.setControllerFactory(applicationContext::getBean);
-		return fxmlLoader;
-		
-	}
-	
+
 	public static void main(String[] args) {
-		applicationContext = SpringApplication.run(ToolsApplication.class, args);
-		// launch(args);
-		launch(ToolsApplication.class, MainView.class, args);
+		launch(ToolsApplication.class, LoginView.class, new SplashScreenCustom(), args);
 	}
-	
+
 }

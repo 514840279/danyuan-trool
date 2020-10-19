@@ -19,10 +19,10 @@
    </rowConstraints>
    <children>
 
-         <Button fx:id="loginButton" mnemonicParsing="false" onAction="#setHelloText" text="确定" textAlignment="RIGHT" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-      <Label text="用户名" />
+      <Label text="%usernameLabel" />
       <TextField fx:id="username" GridPane.columnIndex="1" />
-      <Label text="密码" GridPane.rowIndex="1" />
+      <Label text="%passwordLabel" GridPane.rowIndex="1" />
       <TextField fx:id="password"  GridPane.columnIndex="1" GridPane.rowIndex="1" />
+      <Button fx:id="loginButton" mnemonicParsing="false" onAction="#setHelloText" text="%applyButton" textAlignment="RIGHT" GridPane.columnIndex="1" GridPane.rowIndex="2" />
    </children>
 </GridPane>

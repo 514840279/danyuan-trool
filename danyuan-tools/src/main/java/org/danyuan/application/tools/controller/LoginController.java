@@ -27,6 +27,6 @@ public class LoginController {
 	@FXML
 	private void setHelloText(final Event event) {
 		System.out.println(userConfig);
-		System.out.println(messageUtils.get("hello"));
+		System.out.println(messageUtils.get("usernameLabel"));
 	}
 }

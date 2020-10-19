@@ -6,16 +6,23 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.control.Button?>
 
-
-<GridPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.danyuan.application.tools.controller.LoginController">
+<GridPane fx:id="loginPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.danyuan.application.tools.controller.LoginController">
    <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="1.7976931348623157E308" minWidth="10.0" />
       <ColumnConstraints hgrow="SOMETIMES" maxWidth="1.7976931348623157E308" minWidth="10.0" />
    </columnConstraints>
    <rowConstraints>
+      <RowConstraints />
+      <RowConstraints maxHeight="1.7976931348623157E308" minHeight="-Infinity" vgrow="SOMETIMES" />
       <RowConstraints maxHeight="1.7976931348623157E308" minHeight="-Infinity" vgrow="SOMETIMES" />
    </rowConstraints>
    <children>
-   
-         <Button fx:id="helloButton" mnemonicParsing="false" onAction="#setHelloText" text="Button" />
+
+         <Button fx:id="loginButton" mnemonicParsing="false" onAction="#setHelloText" text="确定" textAlignment="RIGHT" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+      <Label text="用户名" />
+      <TextField fx:id="username" GridPane.columnIndex="1" />
+      <Label text="密码" GridPane.rowIndex="1" />
+      <TextField fx:id="password"  GridPane.columnIndex="1" GridPane.rowIndex="1" />
    </children>
 </GridPane>

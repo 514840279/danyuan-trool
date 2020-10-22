@@ -31,7 +31,7 @@ public class SysDbmsTabsInfoVo extends Pagination<SysDbmsTabsInfo> {
 	/**
 	 * 方法名 ： getUserindex
 	 * 功 能 ： 返回变量 userindex 的值
-	 * @return: String
+	 * 返 回 ： String
 	 */
 	public String getUserindex() {
 		return userindex;
@@ -48,7 +48,7 @@ public class SysDbmsTabsInfoVo extends Pagination<SysDbmsTabsInfo> {
 	/**
 	 * 方法名 ： getUservalue
 	 * 功 能 ： 返回变量 uservalue 的值
-	 * @return: String
+	 * 返 回 ： String
 	 */
 	public String getUservalue() {
 		return uservalue;
@@ -65,7 +65,7 @@ public class SysDbmsTabsInfoVo extends Pagination<SysDbmsTabsInfo> {
 	/**
 	 * 方法名 ： getType
 	 * 功 能 ： 返回变量 type 的值
-	 * @return: String
+	 * 返 回 ： String
 	 */
 	public String getType() {
 		return type;
@@ -82,7 +82,7 @@ public class SysDbmsTabsInfoVo extends Pagination<SysDbmsTabsInfo> {
 	/**
 	 * 方法名 ： getDbType
 	 * 功 能 ： 返回变量 dbType 的值
-	 * @return: String
+	 * 返 回 ： String
 	 */
 	public String getDbType() {
 		return dbType;
@@ -99,7 +99,7 @@ public class SysDbmsTabsInfoVo extends Pagination<SysDbmsTabsInfo> {
 	/**
 	 * 方法名 ： getEsName
 	 * 功 能 ： 返回变量 esName 的值
-	 * @return: String
+	 * 返 回 ： String
 	 */
 	public String getEsName() {
 		return esName;
@@ -116,7 +116,7 @@ public class SysDbmsTabsInfoVo extends Pagination<SysDbmsTabsInfo> {
 	/**
 	 * 方法名 ： getParamString
 	 * 功 能 ： 返回变量 paramString 的值
-	 * @return: String
+	 * 返 回 ： String
 	 */
 	public String getParamString() {
 		return paramString;
@@ -133,7 +133,7 @@ public class SysDbmsTabsInfoVo extends Pagination<SysDbmsTabsInfo> {
 	/**
 	 * 方法名 ： getParamList
 	 * 功 能 ： 返回变量 paramList 的值
-	 * @return: List<MulteityParam>
+	 * 返 回 ： List<MulteityParam>
 	 */
 	public List<MulteityParam> getParamList() {
 		return paramList;
@@ -148,14 +148,14 @@ public class SysDbmsTabsInfoVo extends Pagination<SysDbmsTabsInfo> {
 	}
 
 	/**
-	 * @return the databaseUuid
+	 * 返 回 : the databaseUuid
 	 */
 	public String getDatabaseUuid() {
 		return databaseUuid;
 	}
 
 	/**
-	 * @param databaseUuid
+	 * 参 数 : databaseUuid
 	 *            the databaseUuid to set
 	 */
 	public void setDatabaseUuid(String databaseUuid) {
@@ -163,14 +163,14 @@ public class SysDbmsTabsInfoVo extends Pagination<SysDbmsTabsInfo> {
 	}
 
 	/**
-	 * @return the typeUuid
+	 * 返 回 : the typeUuid
 	 */
 	public String getTypeUuid() {
 		return typeUuid;
 	}
 
 	/**
-	 * @param typeUuid
+	 * 参 数 : typeUuid
 	 *            the typeUuid to set
 	 */
 	public void setTypeUuid(String typeUuid) {
@@ -196,7 +196,7 @@ public class SysDbmsTabsInfoVo extends Pagination<SysDbmsTabsInfo> {
 	/**
 	 * 方法名 ： getTabsuuid
 	 * 功 能 ： 返回变量 tabsuuid 的值
-	 * @return: String
+	 * 返 回 ： String
 	 */
 	public String getTabsuuid() {
 		return tabsuuid;
@@ -213,7 +213,7 @@ public class SysDbmsTabsInfoVo extends Pagination<SysDbmsTabsInfo> {
 	/**
 	 * 方法名 ： getTabsName
 	 * 功 能 ： 返回变量 tabsName 的值
-	 * @return: String
+	 * 返 回 ： String
 	 */
 	public String getTabsName() {
 		return tabsName;
@@ -230,7 +230,7 @@ public class SysDbmsTabsInfoVo extends Pagination<SysDbmsTabsInfo> {
 	/**
 	 * 方法名 ： getTabsDesc
 	 * 功 能 ： 返回变量 tabsDesc 的值
-	 * @return: String
+	 * 返 回 ： String
 	 */
 	public String getTabsDesc() {
 		return tabsDesc;
@@ -247,7 +247,7 @@ public class SysDbmsTabsInfoVo extends Pagination<SysDbmsTabsInfo> {
 	/**
 	 * 方法名 ： getTabsRows
 	 * 功 能 ： 返回变量 tabsRows 的值
-	 * @return: String
+	 * 返 回 ： String
 	 */
 	public String getTabsRows() {
 		return tabsRows;
@@ -264,8 +264,8 @@ public class SysDbmsTabsInfoVo extends Pagination<SysDbmsTabsInfo> {
 	/**
 	 * 方法名 ： toString
 	 * 功 能 ： TODO(这里用一句话描述这个方法的作用)
-	 * 参 数 ： @return
-	 * 参 考 ： @see java.lang.Object#toString()
+	 * 参 数 ： 返 回 :
+	 * 参 考 ：  java.lang.Object#toString()
 	 * 作 者 ： Administrator
 	 */
 

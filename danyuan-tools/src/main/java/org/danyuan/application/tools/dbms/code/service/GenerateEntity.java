@@ -10,19 +10,26 @@ import org.danyuan.application.tools.dbms.tabs.po.SysDbmsTabsColsInfo;
 import org.danyuan.application.tools.dbms.tabs.po.SysDbmsTabsInfo;
 
 /**
- * @文件名 GenerateEntity.java
- * @包名 org.danyuan.application.dbms.code.service
- * @描述 TODO(用一句话描述该文件做什么)
- * @时间 2019年1月17日 上午11:46:53
- * @author Administrator
- * @版本 V1.0
+ * 文件名 GenerateEntity.java
+ * 包名 org.danyuan.application.dbms.code.service
+ * 描述 TODO(用一句话描述该文件做什么)
+ * 时间 2019年1月17日 上午11:46:53
+ * 作 者: Administrator
+ * 版 本： V1.0
  */
 public class GenerateEntity {
 
 	/**
-	 * @方法名 generate @功能 生成实体类文件 @参数 @param sysDbmsGenerateCodeInfo @参数 @param
-	 * tabsInfo @参数 @param colsInfos @参数 @param username @参数 @param
-	 * pathString @返回 void @author Administrator @throws
+	 * 方法名 generate
+	 * 功能 生成实体类文件
+	 * 参数 参 数 : sysDbmsGenerateCodeInfo
+	 * 参数 参 数 : tabsInfo
+	 * 参数 参 数 : colsInfos
+	 * 参数 参 数 : username
+	 * 参数 参 数 : pathString
+	 * 返回 void
+	 * author Administrator
+	 
 	 */
 	public static void generate(SysDbmsGenerateCodeInfo sysDbmsGenerateCodeInfo, SysDbmsTabsInfo tabsInfo,
 			List<SysDbmsTabsColsInfo> colsInfos, String username, String pathString) {
@@ -56,14 +63,14 @@ public class GenerateEntity {
 		stringBuilder.append("import " + thirdString + "common.base.BaseEntity;\r\n");
 		stringBuilder.append("\r\n");
 		stringBuilder.append("/**\r\n");
-		stringBuilder.append(" * @文件名 " + sysDbmsGenerateCodeInfo.getClassName() + ".java\r\n");
-		stringBuilder.append(" * @包名 " + sysDbmsGenerateCodeInfo.getClassPath() + ".po\r\n");
+		stringBuilder.append(" * 文件名： " + sysDbmsGenerateCodeInfo.getClassName() + ".java\r\n");
+		stringBuilder.append(" * 包 名： " + sysDbmsGenerateCodeInfo.getClassPath() + ".po\r\n");
 		stringBuilder.append(
-				" * @描述 " + tabsInfo.getTabsName().substring(tabsInfo.getTabsName().lastIndexOf(".") + 1) + "的实体类\r\n");
+				" * 描 述： " + tabsInfo.getTabsName().substring(tabsInfo.getTabsName().lastIndexOf(".") + 1) + "的实体类\r\n");
 		SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy年MM月dd日 HH:mm:ss");
-		stringBuilder.append(" * @时间 " + simpleDateFormat.format(new Date()) + "\r\n");
-		stringBuilder.append(" * @author " + username + "\r\n");
-		stringBuilder.append(" * @版本 V1.0\r\n");
+		stringBuilder.append(" * 时 间： " + simpleDateFormat.format(new Date()) + "\r\n");
+		stringBuilder.append(" * 作 者: " + username + "\r\n");
+		stringBuilder.append(" * 版 本： V1.0\r\n");
 		stringBuilder.append(" */\r\n");
 		stringBuilder.append("@Entity\r\n");
 		stringBuilder.append("@Table(name = \""
@@ -84,7 +91,7 @@ public class GenerateEntity {
 		stringBuilder.append("	*  描    述： 默认构造函数  \r\n");
 		stringBuilder.append("	*  参    数： \r\n");
 		stringBuilder.append("	*  作    者 ： " + username + "  \r\n");
-		stringBuilder.append("	*  @throws  \r\n");
+		stringBuilder.append("	*    \r\n");
 		stringBuilder.append("	*/\r\n");
 		stringBuilder.append("	public " + sysDbmsGenerateCodeInfo.getClassName() + "() {\r\n");
 		stringBuilder.append("		super();\r\n");
@@ -108,9 +115,9 @@ public class GenerateEntity {
 	}
 
 	/**
-	 * 方法名： spellString 功 能： 拼接字段和get，set方法 参 数： @param colsInfos 参 数： @param
-	 * stringBuilderProperties 参 数： @param stringBuilderMethod 返 回： void 作 者 ：
-	 * wang @throws
+	 * 方法名： spellString 功 能： 拼接字段和get，set方法 参 数： 参 数 : colsInfos 参 数： 参 数 :
+	 * stringBuilderProperties 参 数： 参 数 : stringBuilderMethod 返 回： void 作 者 ：
+	 * wang 
 	 */
 	private static void spellString(List<SysDbmsTabsColsInfo> colsInfos, StringBuilder stringBuilderProperties,
 			StringBuilder stringBuilderMethod, StringBuilder stringBuilderImport) {
@@ -161,9 +168,16 @@ public class GenerateEntity {
 	}
 
 	/**
-	 * 方法名： spellMethod 功 能： 拼写get，set 参 数： @param stringBuilderMethod 参
-	 * 数： @param propertiesName 参 数： @param propertiesType 参 数： @param colsDesc
-	 * 参 数： @param colsType 参 数： @param colsName 返 回： void 作 者 ： wang @throws
+	 * 方法名： spellMethod
+	 * 功 能： 拼写get，set
+	 * 参 数： stringBuilderMethod
+	 * 参 数：  propertiesName
+	 * 参 数： propertiesType
+	 * 参 数： colsDesc
+	 * 参 数： colsType
+	 * 参 数：colsName
+	 * 返 回： void
+	 * 作 者 ： wang 
 	 */
 	private static void spellMethod(StringBuilder stringBuilderMethod, String propertiesName, String propertiesType,
 			String colsDesc, String colsType, String colsName) {
@@ -174,7 +188,7 @@ public class GenerateEntity {
 		stringBuilderMethod.append("	 * 方法名 ： get" + upPropertiesName + "\r\n");
 		stringBuilderMethod.append("	 * 功 能 ： 返回变量 " + propertiesName + " " + colsDesc + " 的值\r\n");
 		stringBuilderMethod.append("	 *\r\n");
-		stringBuilderMethod.append("	 * @return: String \r\n");
+		stringBuilderMethod.append("	 * 返 回 ： String \r\n");
 		stringBuilderMethod.append("	 */\r\n");
 		stringBuilderMethod.append("	public " + propertiesType + " get" + upPropertiesName + "() {\r\n");
 		stringBuilderMethod.append("		return " + propertiesName + ";\r\n");
@@ -192,9 +206,16 @@ public class GenerateEntity {
 	}
 
 	/**
-	 * 方法名： spellProperties 功 能： 拼写属性 参 数： @param stringBuilderProperties 参
-	 * 数： @param propertiesName 参 数： @param propertiesType 参 数： @param colsDesc
-	 * 参 数： @param colsType 参 数： @param colsName 返 回： void 作 者 ： wang @throws
+	 * 方法名： spellProperties
+	 * 功 能： 拼写属性
+	 * 参 数： stringBuilderProperties
+	 * 参 数：propertiesName
+	 * 参 数： propertiesType
+	 * 参 数： colsDesc
+	 * 参 数： colsType
+	 * 参 数： colsName
+	 * 返 回： void
+	 * 作 者 ： wang 
 	 */
 	private static void spellProperties(StringBuilder stringBuilderProperties, String propertiesName,
 			String propertiesType, String colsDesc, String colsType, String colsName) {
@@ -227,8 +248,13 @@ public class GenerateEntity {
 	}
 
 	/**
-	 * 方法名： makeProperties 功 能： TODO(这里用一句话描述这个方法的作用) 参 数： @param colsName 参
-	 * 数： @return 返 回： String 作 者 ： wang @throws
+	 * 方法名： makeProperties
+	 * 功 能： TODO(这里用一句话描述这个方法的作用)
+	 * 参 数： colsName
+	 * 参 数： 返 回 :
+	 * 返 回： String
+	 * 作 者 ： wang
+	 * 
 	 */
 	private static String makeProperties(String colsName) {
 		String[] strs = colsName.split("_");

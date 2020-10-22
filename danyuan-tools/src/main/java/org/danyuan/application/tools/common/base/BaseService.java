@@ -33,15 +33,14 @@ public interface BaseService<T> {
 	void deleteAll(List<T> entities);
 
 	void trunc();
-	
+
 	/**
-	 * @方法名 count
-	 * @功能 TODO(这里用一句话描述这个方法的作用)
-	 * @参数 @param info
-	 * @参数 @return
-	 * @返回 Long
-	 * @author Administrator
-	 * @throws
+	 * 方法名 count
+	 * 功 能: TODO(这里用一句话描述这个方法的作用)
+	 * 参 数 : info
+	 * 返 回： Long
+	 * 作 者: Administrator
+	 *
 	 */
 	Long count(T info);
 }

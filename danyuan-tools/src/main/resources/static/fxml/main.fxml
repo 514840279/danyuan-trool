@@ -6,9 +6,19 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="org.danyuan.application.tools.controller.MainController"
-            prefHeight="400.0" prefWidth="600.0" style="-fx-border-color: red;-fx-border-width: 1">
-    <Button AnchorPane.topAnchor="100" text="你好" />
+
+<AnchorPane xmlns="http://javafx.com/javafx/8"
+xmlns:fx="http://javafx.com/fxml/1"
+fx:controller="org.danyuan.application.tools.controller.MainController"
+prefHeight="400.0" prefWidth="600.0"
+>
+   <children>
+       <Button layoutX="30.0" layoutY="242.0" styleClass="btn-warning" text="你好 btn-warning" />
+       <Button layoutX="30.0" layoutY="197.0" styleClass="btn-dangerous" text="你好 btn-dangerous" />
+       <Button layoutX="31.0" layoutY="291.0" styleClass="btn-error" text="你好 btn-error" />
+       <Button layoutX="31.0" layoutY="65.0" styleClass="btn-success" text="你好 btn-success" />
+       <Button layoutX="31.0" layoutY="111.0" styleClass="btn-primary" text="你好 btn-primary" />
+       <Button layoutX="31.0" layoutY="24.0" styleClass="btn" text="你好 btn" />
+       <Button layoutX="34.0" layoutY="152.0" styleClass="btn-info" text="你好 btn-info" />
+   </children>
 </AnchorPane>

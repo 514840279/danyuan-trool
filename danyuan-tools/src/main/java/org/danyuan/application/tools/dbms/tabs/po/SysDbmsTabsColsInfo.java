@@ -106,7 +106,7 @@ public class SysDbmsTabsColsInfo implements Serializable {
 	 * 方法名 ： getUuid
 	 * 功 能 ： 返回变量 uuid 的值
 	 *
-	 * @return: String
+	 * 返 回 ： String
 	 */
 	public String getUuid() {
 		return uuid;
@@ -124,7 +124,7 @@ public class SysDbmsTabsColsInfo implements Serializable {
 	 * 方法名 ： getColsLength
 	 * 功 能 ： 返回变量 colsLength 的值
 	 *
-	 * @return: Integer
+	 * 返 回 ： Integer
 	 */
 	public Integer getColsLength() {
 		return colsLength;
@@ -142,7 +142,7 @@ public class SysDbmsTabsColsInfo implements Serializable {
 	 * 方法名 ： getColsDesc
 	 * 功 能 ： 返回变量 colsDesc 的值
 	 *
-	 * @return: String
+	 * 返 回 ： String
 	 */
 	public String getColsDesc() {
 		return colsDesc;
@@ -160,7 +160,7 @@ public class SysDbmsTabsColsInfo implements Serializable {
 	 * 方法名 ： getColsName
 	 * 功 能 ： 返回变量 colsName 的值
 	 *
-	 * @return: String
+	 * 返 回 ： String
 	 */
 	public String getColsName() {
 		return colsName;
@@ -178,7 +178,7 @@ public class SysDbmsTabsColsInfo implements Serializable {
 	 * 方法名 ： getColsOrder
 	 * 功 能 ： 返回变量 colsOrder 的值
 	 *
-	 * @return: Integer
+	 * 返 回 ： Integer
 	 */
 	public Integer getColsOrder() {
 		return colsOrder;
@@ -196,7 +196,7 @@ public class SysDbmsTabsColsInfo implements Serializable {
 	 * 方法名 ： getColsType
 	 * 功 能 ： 返回变量 colsType 的值
 	 *
-	 * @return: String
+	 * 返 回 ： String
 	 */
 	public String getColsType() {
 		return colsType;
@@ -214,7 +214,7 @@ public class SysDbmsTabsColsInfo implements Serializable {
 	 * 方法名 ： getCreateTime
 	 * 功 能 ： 返回变量 createTime 的值
 	 *
-	 * @return: Date
+	 * 返 回 ： Date
 	 */
 	public Date getCreateTime() {
 		return createTime;
@@ -232,7 +232,7 @@ public class SysDbmsTabsColsInfo implements Serializable {
 	 * 方法名 ： getCreateUser
 	 * 功 能 ： 返回变量 createUser 的值
 	 *
-	 * @return: String
+	 * 返 回 ： String
 	 */
 	public String getCreateUser() {
 		return createUser;
@@ -250,7 +250,7 @@ public class SysDbmsTabsColsInfo implements Serializable {
 	 * 方法名 ： getDeleteFlag
 	 * 功 能 ： 返回变量 deleteFlag 的值
 	 *
-	 * @return: Integer
+	 * 返 回 ： Integer
 	 */
 	public Integer getDeleteFlag() {
 		return deleteFlag;
@@ -268,7 +268,7 @@ public class SysDbmsTabsColsInfo implements Serializable {
 	 * 方法名 ： getDiscription
 	 * 功 能 ： 返回变量 discription 的值
 	 *
-	 * @return: String
+	 * 返 回 ： String
 	 */
 	public String getDiscription() {
 		return discription;
@@ -286,7 +286,7 @@ public class SysDbmsTabsColsInfo implements Serializable {
 	 * 方法名 ： getTabsUuid
 	 * 功 能 ： 返回变量 tabsUuid 的值
 	 *
-	 * @return: String
+	 * 返 回 ： String
 	 */
 	public String getTabsUuid() {
 		return tabsUuid;
@@ -304,7 +304,7 @@ public class SysDbmsTabsColsInfo implements Serializable {
 	 * 方法名 ： getUpdateTime
 	 * 功 能 ： 返回变量 updateTime 的值
 	 *
-	 * @return: Date
+	 * 返 回 ： Date
 	 */
 	public Date getUpdateTime() {
 		return updateTime;
@@ -322,7 +322,7 @@ public class SysDbmsTabsColsInfo implements Serializable {
 	 * 方法名 ： getUpdateUser
 	 * 功 能 ： 返回变量 updateUser 的值
 	 *
-	 * @return: String
+	 * 返 回 ： String
 	 */
 	public String getUpdateUser() {
 		return updateUser;
@@ -356,7 +356,7 @@ public class SysDbmsTabsColsInfo implements Serializable {
 	 * 方法名 ： getColsWidth
 	 * 功 能 ： 返回变量 colsWidth 的值
 	 *
-	 * @return: Integer
+	 * 返 回 ： Integer
 	 */
 	public Integer getColsWidth() {
 		return colsWidth;
@@ -390,7 +390,7 @@ public class SysDbmsTabsColsInfo implements Serializable {
 	 * 方法名 ： getUserIndex
 	 * 功 能 ： 返回变量 userIndex 的值
 	 *
-	 * @return: String
+	 * 返 回 ： String
 	 */
 	public String getUserIndex() {
 		return userIndex;
@@ -408,7 +408,7 @@ public class SysDbmsTabsColsInfo implements Serializable {
 	 * 方法名 ： getUserIcon
 	 * 功 能 ： 返回变量 userIcon 的值
 	 *
-	 * @return: String
+	 * 返 回 ： String
 	 */
 	public String getUserIcon() {
 		return userIcon;
@@ -425,28 +425,28 @@ public class SysDbmsTabsColsInfo implements Serializable {
 	/**
 	 * 构造方法：
 	 * 描 述： TODO(这里用一句话描述这个方法的作用)
-	 * 参 数： @param uuid
-	 * 参 数： @param tabsUuid
-	 * 参 数： @param colsName
-	 * 参 数： @param colsDesc
-	 * 参 数： @param colsType
-	 * 参 数： @param colsLength
-	 * 参 数： @param colsOrder
-	 * 参 数： @param colsAlign
-	 * 参 数： @param colsValign
-	 * 参 数： @param colsWidth
-	 * 参 数： @param colsVisible
-	 * 参 数： @param colsSwitchable
-	 * 参 数： @param userIndex
-	 * 参 数： @param userIcon
-	 * 参 数： @param discription
-	 * 参 数： @param createTime
-	 * 参 数： @param createUser
-	 * 参 数： @param updateTime
-	 * 参 数： @param updateUser
-	 * 参 数： @param deleteFlag
+	 * 参 数： uuid
+	 * 参 数： tabsUuid
+	 * 参 数： colsName
+	 * 参 数： colsDesc
+	 * 参 数： colsType
+	 * 参 数： colsLength
+	 * 参 数： colsOrder
+	 * 参 数： colsAlign
+	 * 参 数： colsValign
+	 * 参 数： colsWidth
+	 * 参 数： colsVisible
+	 * 参 数： colsSwitchable
+	 * 参 数： userIndex
+	 * 参 数： userIcon
+	 * 参 数： discription
+	 * 参 数： createTime
+	 * 参 数： createUser
+	 * 参 数： updateTime
+	 * 参 数： updateUser
+	 * 参 数： deleteFlag
 	 * 作 者 ： Administrator
-	 * @throws
+	 * 
 	 */
 	public SysDbmsTabsColsInfo(String uuid, String tabsUuid, String colsName, String colsDesc, String colsType, Integer colsLength, Integer pageList, Integer colsOrder, String colsAlign, String colsValign, Integer colsWidth, Boolean colsVisible, Boolean colsSwitchable, String userIndex, String userIcon, String discription, Date createTime, String createUser, Date updateTime, String updateUser, Integer deleteFlag) {
 		super();
@@ -475,21 +475,21 @@ public class SysDbmsTabsColsInfo implements Serializable {
 	/**
 	 * 构造方法：
 	 * 描 述： TODO(这里用一句话描述这个方法的作用)
-	 * 参 数： @param uuid
-	 * 参 数： @param tabsUuid
-	 * 参 数： @param colsName
-	 * 参 数： @param colsDesc
-	 * 参 数： @param colsType
-	 * 参 数： @param colsLength
-	 * 参 数： @param colsOrder
-	 * 参 数： @param colsAlign
-	 * 参 数： @param colsValign
-	 * 参 数： @param colsWidth
-	 * 参 数： @param colsVisible
-	 * 参 数： @param colsSwitchable
-	 * 参 数： @param deleteFlag
+	 * 参 数： uuid
+	 * 参 数： tabsUuid
+	 * 参 数： colsName
+	 * 参 数： colsDesc
+	 * 参 数： colsType
+	 * 参 数： colsLength
+	 * 参 数： colsOrder
+	 * 参 数： colsAlign
+	 * 参 数： colsValign
+	 * 参 数： colsWidth
+	 * 参 数： colsVisible
+	 * 参 数： colsSwitchable
+	 * 参 数： deleteFlag
 	 * 作 者 ： Administrator
-	 * @throws
+	 * 
 	 */
 	public SysDbmsTabsColsInfo(String uuid, String tabsUuid, String colsName, String colsDesc, String colsType, Integer colsLength, Integer pageList, Integer colsOrder, String colsAlign, String colsValign, Integer colsWidth, Boolean colsVisible, Boolean colsSwitchable, Integer deleteFlag) {
 		super();
@@ -512,7 +512,7 @@ public class SysDbmsTabsColsInfo implements Serializable {
 	 * 方法名 ： getColsSort
 	 * 功 能 ： 返回变量 colsSort 的值
 	 *
-	 * @return: Integer
+	 * 返 回 ： Integer
 	 */
 	public String getColsSort() {
 		return colsSort;
@@ -527,17 +527,17 @@ public class SysDbmsTabsColsInfo implements Serializable {
 	}
 
 	/**
-	 * @方法名 getDimeFlag
-	 * @功能 返回变量 dimeFlag 的值
-	 * @return Boolean
+	 * 方法名 getDimeFlag
+	 * 功 能: 返回变量 dimeFlag 的值
+	 * 返 回 : Boolean
 	 */
 	public Boolean getDimeFlag() {
 		return dimeFlag;
 	}
 
 	/**
-	 * @方法名 setDimeFlag
-	 * @功能 设置变量 dimeFlag 的值
+	 * 方法名 setDimeFlag
+	 * 功 能: 设置变量 dimeFlag 的值
 	 */
 	public void setDimeFlag(Boolean dimeFlag) {
 		this.dimeFlag = dimeFlag;

@@ -1,11 +1,9 @@
 package org.danyuan.application.tools.common.base;
 
-import java.io.IOException;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.springframework.boot.json.JsonParseException;
 
 
 /**
@@ -34,7 +32,7 @@ public class Pagination<T> {
 	 * 方法名 ： getInfo
 	 * 功 能 ： 返回变量 info 的值
 	 *
-	 * @return: T
+	 * 返 回 ： T
 	 */
 	public T getInfo() {
 		return info;
@@ -52,7 +50,7 @@ public class Pagination<T> {
 	 * 方法名 ： getPageNumber
 	 * 功 能 ： 返回变量 pageNumber 的值
 	 *
-	 * @return: Integer
+	 * 返 回 ： Integer
 	 */
 	public Integer getPageNumber() {
 		return pageNumber;
@@ -70,7 +68,7 @@ public class Pagination<T> {
 	 * 方法名 ： getPageSize
 	 * 功 能 ： 返回变量 pageSize 的值
 	 *
-	 * @return: Integer
+	 * 返 回 ： Integer
 	 */
 	public Integer getPageSize() {
 		return pageSize;
@@ -88,7 +86,7 @@ public class Pagination<T> {
 	 * 方法名 ： getUuid
 	 * 功 能 ： 返回变量 uuid 的值
 	 *
-	 * @return: String
+	 * 返 回 ： String
 	 */
 	public String getUuid() {
 		return uuid;
@@ -106,7 +104,7 @@ public class Pagination<T> {
 	 * 方法名 ： getSearchText
 	 * 功 能 ： 返回变量 searchText 的值
 	 *
-	 * @return: String
+	 * 返 回 ： String
 	 */
 	public String getSearchText() {
 		return searchText;
@@ -124,7 +122,7 @@ public class Pagination<T> {
 	 * 方法名 ： getList
 	 * 功 能 ： 返回变量 list 的值
 	 *
-	 * @return: List<T>
+	 * 返 回 ： List<T>
 	 */
 	public List<T> getList() {
 		return list;
@@ -142,7 +140,7 @@ public class Pagination<T> {
 	 * 方法名 ： getUsername
 	 * 功 能 ： 返回变量 username 的值
 	 *
-	 * @return: String
+	 * 返 回 ： String
 	 */
 	public String getUsername() {
 		return username;
@@ -196,8 +194,8 @@ public class Pagination<T> {
 	/**
 	 * 方法名 ： toString
 	 * 功 能 ： TODO(这里用一句话描述这个方法的作用)
-	 * 参 数 ： @return
-	 * 参 考 ： @see java.lang.Object#toString()
+	 * 参 数 ： 返 回 :
+	 * 参 考 ：  java.lang.Object#toString()
 	 * 作 者 ： Administrator
 	 */
 

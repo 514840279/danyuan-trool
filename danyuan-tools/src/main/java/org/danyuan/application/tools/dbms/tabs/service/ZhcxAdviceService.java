@@ -19,19 +19,31 @@ import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 import org.springframework.stereotype.Service;
 
 /**
- * 文件名 ： ZhcxAdviceService.java 包 名 ：
- * com.shumeng.application.application.zhcx.service 描 述 ： TODO(用一句话描述该文件做什么)
- * 机能名称： 技能ID ： 作 者 ： Administrator 时 间 ： 2018年4月26日 下午1:52:03 版 本 ： V1.0
+ * 文件名 ： ZhcxAdviceService.java
+ * 包 名 ：com.shumeng.application.application.zhcx.service
+ * 描 述 ： TODO(用一句话描述该文件做什么)
+ * 机能名称：
+ * 技能ID ：
+ * 作 者 ： Administrator
+ * 时 间 ： 2018年4月26日 下午1:52:03
+ * 版 本 ： V1.0
  */
 @Service
 public class ZhcxAdviceService {
 	private static final Logger logger = LoggerFactory.getLogger(ZhcxAdviceService.class);
 
 	/**
-	 * @param sysZhcxCol @param jdbcTemplate2 @param sysAdviceMessDao @param
-	 * multiDatasource @param sysZhcxTab 方法名：
-	 * startConfixTableCloumnIndexAndCloumnLengthConfig 功 能：
-	 * TODO(这里用一句话描述这个方法的作用) 参 数： 返 回： void 作 者 ： Administrator @throws
+	 * 参 数 : sysZhcxCol
+	 * 参 数 : jdbcTemplate2
+	 * 参 数 : sysAdviceMessDao
+	 * 参 数 : multiDatasource
+	 * 参 数 : sysZhcxTab
+	 * 方法名：startConfixTableCloumnIndexAndCloumnLengthConfig
+	 * 功 能：TODO(这里用一句话描述这个方法的作用)
+	 * 参 数：
+	 * 返 回： void
+	 * 作 者 ： Administrator
+	 * 
 	 */
 	public static void startConfixOracleTableCloumnIndexConfig(SysDbmsTabsInfo sysZhcxTab,
 			Map<String, DataSource> multiDatasource, SysDbmsAdviMessInfoDao sysAdviceMessDao,
@@ -98,9 +110,16 @@ public class ZhcxAdviceService {
 	}
 
 	/**
-	 * @param sysZhcxCol @param sysAdviceMessDao @param multiDatasource @param
-	 * sysZhcxTab 方法名： startConfixTableColumnsConfig 功 能： TODO(这里用一句话描述这个方法的作用)
-	 * 参 数： 返 回： void 作 者 ： Administrator @throws
+	 * 参 数 : sysZhcxCol
+	 * 参 数 : sysAdviceMessDao
+	 * 参 数 : multiDatasource
+	 * 参 数 : sysZhcxTab
+	 * 方法名： startConfixTableColumnsConfig
+	 * 功 能： TODO(这里用一句话描述这个方法的作用)
+	 * 参 数：
+	 * 返 回： void
+	 * 作 者 ： Administrator
+	 * 
 	 */
 	public static void startConfixOracleTableColumnsConfig(SysDbmsTabsInfo sysZhcxTab,
 			Map<String, DataSource> multiDatasource, SysDbmsAdviMessInfoDao sysAdviceMessDao,
@@ -205,9 +224,16 @@ public class ZhcxAdviceService {
 	}
 
 	/**
-	 * @param jdbcTemplate2 @param sysAdviceMessDao @param
-	 * multiDatasource @param sysZhcxTab 方法名： startConfixTableConfig 功 能：
-	 * TODO(这里用一句话描述这个方法的作用) 参 数： 返 回： void 作 者 ： Administrator @throws
+	 * 参 数 : jdbcTemplate2
+	 * 参 数 : sysAdviceMessDao
+	 * 参 数 : multiDatasource
+	 * 参 数 : sysZhcxTab
+	 * 方法名： startConfixTableConfig
+	 * 功 能：TODO(这里用一句话描述这个方法的作用)
+	 * 参 数：
+	 * 返 回： void
+	 * 作 者 ： Administrator
+	 * 
 	 */
 	public static void startConfixOracleTableConfig(SysDbmsTabsInfo sysZhcxTab, Map<String, DataSource> multiDatasource,
 			SysDbmsAdviMessInfoDao sysAdviceMessDao, JdbcTemplate jdbcTemplate2) {
@@ -277,10 +303,15 @@ public class ZhcxAdviceService {
 	}
 
 	/**
-	 * @方法名 startConfixMysqlTableConfig @功能 TODO(这里用一句话描述这个方法的作用) @参数 @param
-	 * sysZhcxTab @参数 @param multiDatasource @参数 @param
-	 * sysDbmsAdviMessInfoDao @参数 @param jdbcTemplate @返回 void @author
-	 * Administrator @throws
+	 * 方法名 startConfixMysqlTableConfig
+	 * 功能 TODO(这里用一句话描述这个方法的作用)
+	 * 参数 sysZhcxTab
+	 * 参数 multiDatasource
+	 * 参数 sysDbmsAdviMessInfoDao
+	 * 参数 jdbcTemplate
+	 * 返回 void
+	 * author Administrator
+	 
 	 */
 	public static void startConfixMysqlTableConfig(SysDbmsTabsInfo sysZhcxTab, Map<String, DataSource> multiDatasource,
 			SysDbmsAdviMessInfoDao sysDbmsAdviMessInfoDao, JdbcTemplate jdbcTemplate2) {
@@ -347,10 +378,16 @@ public class ZhcxAdviceService {
 	}
 
 	/**
-	 * @方法名 startConfixMysqlTableColumnsConfig @功能
-	 * TODO(这里用一句话描述这个方法的作用) @参数 @param sysZhcxTab @参数 @param
-	 * multiDatasource @参数 @param sysDbmsAdviMessInfoDao @参数 @param
-	 * jdbcTemplate @参数 @param colList @返回 void @author Administrator @throws
+	 * 方法名 startConfixMysqlTableColumnsConfig
+	 * 功能 TODO(这里用一句话描述这个方法的作用)
+	 * 参数 sysZhcxTab
+	 * 参数  multiDatasource
+	 * 参数 sysDbmsAdviMessInfoDao
+	 * 参数 jdbcTemplate
+	 * 参数 colList
+	 * 返回 void
+	 * author Administrator
+	 * 
 	 */
 	public static void startConfixMysqlTableColumnsConfig(SysDbmsTabsInfo sysZhcxTab,
 			Map<String, DataSource> multiDatasource, SysDbmsAdviMessInfoDao sysDbmsAdviMessInfoDao,
@@ -456,11 +493,16 @@ public class ZhcxAdviceService {
 	}
 
 	/**
-	 * @方法名 startConfixMysqlTableCloumnIndexConfig @功能
-	 * TODO(这里用一句话描述这个方法的作用) @参数 @param sysZhcxTab @参数 @param
-	 * multiDatasource @参数 @param sysDbmsAdviMessInfoDao @参数 @param
-	 * jdbcTemplate2 @参数 @param sysZhcxCol @返回 void @author
-	 * Administrator @throws
+	 * 方法名 startConfixMysqlTableCloumnIndexConfig
+	 * 功能 TODO(这里用一句话描述这个方法的作用)
+	 * 参数 sysZhcxTab
+	 * 参数 multiDatasource
+	 * 参数 sysDbmsAdviMessInfoDao
+	 * 参数 jdbcTemplate2
+	 * 参数 sysZhcxCol
+	 * 返回 void
+	 * 作 者: Administrator
+	 * 
 	 */
 	private static void startConfixMysqlTableCloumnIndexConfig(SysDbmsTabsInfo sysZhcxTab,
 			SysDbmsTabsColsInfo sysZhcxCol, List<Map<String, Object>> resultlist,

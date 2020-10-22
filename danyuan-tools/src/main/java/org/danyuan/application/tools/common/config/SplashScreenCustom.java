@@ -6,8 +6,8 @@ import javafx.scene.Parent;
 /**
  * 自定义闪屏
  * 
- * @author xiyang.ycj
- * @since Dec 09, 2019 16:35:12 PM
+ * 作 者: xiyang.ycj
+ * 日 期： Dec 09, 2019 16:35:12 PM
  */
 public class SplashScreenCustom extends SplashScreen {
 	@Override

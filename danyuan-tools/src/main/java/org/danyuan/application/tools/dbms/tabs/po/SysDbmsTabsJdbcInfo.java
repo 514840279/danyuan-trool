@@ -88,7 +88,7 @@ public class SysDbmsTabsJdbcInfo {
 	 * 方法名 ： getIp
 	 * 功 能 ： 返回变量 ip 的值
 	 *
-	 * @return: String
+	 * 返 回 ： String
 	 */
 	public String getIp() {
 		return ip;
@@ -178,7 +178,7 @@ public class SysDbmsTabsJdbcInfo {
 	 * 方法名 ： getUpdateTime
 	 * 功 能 ： 返回变量 updateTime 的值
 	 *
-	 * @return: Date
+	 * 返 回 ： Date
 	 */
 	public Date getUpdateTime() {
 		return updateTime;
@@ -196,7 +196,7 @@ public class SysDbmsTabsJdbcInfo {
 	 * 方法名 ： getUpdateUser
 	 * 功 能 ： 返回变量 updateUser 的值
 	 *
-	 * @return: String
+	 * 返 回 ： String
 	 */
 	public String getUpdateUser() {
 		return updateUser;
@@ -221,8 +221,8 @@ public class SysDbmsTabsJdbcInfo {
 	/**
 	 * 方法名 ： toString
 	 * 功 能 ： TODO(这里用一句话描述这个方法的作用)
-	 * 参 数 ： @return
-	 * 参 考 ： @see java.lang.Object#toString()
+	 * 参 数 ： 返 回 :
+	 * 参 考 ：  java.lang.Object#toString()
 	 * 作 者 ： Administrator
 	 */
 

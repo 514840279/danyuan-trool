@@ -22,8 +22,12 @@ import java.util.regex.Pattern;
 import org.apache.commons.lang3.CharSet;
 
 /**
- * 文件名 ： StringUtils.java 包 名 ： 描 述 ： TODO(用一句话描述该文件做什么) 作 者 ： Tenghui.Wang 时 间
- * ： 2016年1月2日 上午11:22:14 版 本 ： V1.0
+ * 文件名 ： StringUtils.java
+ * 包 名 ：
+ * 描 述 ： TODO(用一句话描述该文件做什么)
+ * 作 者 ： Tenghui.Wang
+ * 时 间 ： 2016年1月2日 上午11:22:14
+ * 版 本 ： V1.0
  */
 public class StringUtils {
 
@@ -47,9 +51,9 @@ public class StringUtils {
 	 * 效果: 将双引号变成&#38;#34;
 	 * </p>
 	 *
-	 * @param str
+	 * 参 数 : str
 	 *            过滤input中value=""中间特殊字符
-	 * @return
+	 * 返 回 :
 	 */
 	public static final String toInputValue(final String str) {
 		if (null == str) {
@@ -64,10 +68,8 @@ public class StringUtils {
 	 * <p>
 	 * 效果: 将&#60;input type="text"&#62;输出，而不是显示文本框
 	 * </p>
-	 *
-	 * @param str
-	 *            <input type="text">
-	 * @return &#60;input type="text"&#62;
+	 * 参 数 : String str
+	 * 返 回 : String
 	 */
 	public static final String toHtml(final String str) {
 		if (null == str) {
@@ -168,11 +170,11 @@ public class StringUtils {
 	 * <p>
 	 * 效果: 将djd13912345j, [0-9]{1,}载取成13912345
 	 *
-	 * @param input
+	 * 参 数 : input
 	 *            djd13912345j
-	 * @param regexp
+	 * 参 数 : regexp
 	 *            [0-9]{1,}
-	 * @return 13912345
+	 * 返 回 : 13912345
 	 */
 	public static final String regexp_substr(final String input, final String regexp) {
 		Pattern pattern = Pattern.compile(regexp);
@@ -222,9 +224,9 @@ public class StringUtils {
 	 * <p>
 	 * 效果:
 	 *
-	 * @param s
+	 * 参 数 : s
 	 *            非空字符
-	 * @return String
+	 * 返 回 : String
 	 */
 	public static final String toUpcaseFirstChar(String s) {
 		// 如果s是null或者s=""的情况不考虑
@@ -243,9 +245,9 @@ public class StringUtils {
 	 * <p>
 	 * 效果:
 	 *
-	 * @param list
+	 * 参 数 : list
 	 *            集合
-	 * @return String[] 数组
+	 * 返 回 : String[] 数组
 	 */
 	public static final String[] listToStringArray(List<?> list) {
 		Iterator<?> it = list.iterator();
@@ -266,13 +268,13 @@ public class StringUtils {
 	 * StringUtil.endString(file.jdo, ".",false) 返回"jdo"，相当于
 	 * StringUtil.endString(file.jdo, ".")
 	 *
-	 * @param srcStr
+	 * 参 数 : srcStr
 	 *            源字符串
-	 * @param strdivision
+	 * 参 数 : strdivision
 	 *            分隔符
-	 * @param flag
+	 * 参 数 : flag
 	 *            如果为真则带分隔符，否则不带分隔符
-	 * @return 处理完毕的字符串,如果没有找到分隔符，则返回NULL
+	 * 返 回 : 处理完毕的字符串,如果没有找到分隔符，则返回NULL
 	 */
 	public static final String endString(String srcStr, String strdivision, boolean flag) {
 		// 判断源字符串和分隔符是否为空,如果为空则返回源字符串
@@ -297,14 +299,14 @@ public class StringUtils {
 	 * <p>
 	 * 功能：返回分隔符后面的字符串,不带分隔符<br>
 	 * <p>
-	 * 效果:<br>
+	 * 效果:
 	 * StringUtil.endString(file.jdo, ".") 返回 "jdo"
 	 *
-	 * @param srcStr
+	 * 参 数 : srcStr
 	 *            String 源字符串
-	 * @param strdivision
+	 * 参 数 : strdivision
 	 *            String 分隔符
-	 * @return String 处理完毕的字符串,如果没有找到分隔符，则返回NULL
+	 * 返 回 : String 处理完毕的字符串,如果没有找到分隔符，则返回NULL
 	 */
 	public static final String endString(String srcStr, String strdivision) {
 		return endString(srcStr, strdivision, false);
@@ -317,7 +319,7 @@ public class StringUtils {
 	 * <p>
 	 * 效果:
 	 *
-	 * @param srcStr
+	 * 参 数 : srcStr
 	 *            String 要判断的字符串
 	 * @returnboolean NULL 或者 "" 返回真，否则返回假
 	 */
@@ -336,9 +338,9 @@ public class StringUtils {
 	 * <p>
 	 * 效果:
 	 *
-	 * @param str
+	 * 参 数 : str
 	 *            String
-	 * @return String
+	 * 返 回 : String
 	 */
 	public static final String converHtml(String str) {
 		// 判断是否为空或者是空
@@ -518,9 +520,9 @@ public class StringUtils {
 	/**
 	 * 字符串是数值(含小数)的判定方法。
 	 *
-	 * @param str
+	 * 参 数 : str
 	 *            字符串
-	 * @return 数值(含小数) true
+	 * 返 回 : 数值(含小数) true
 	 */
 	public static boolean isNumeric(String str) {
 		if (StringUtils.isEmpty(str)) {
@@ -534,9 +536,9 @@ public class StringUtils {
 	/**
 	 * 字符串null或空文字判定方法。
 	 *
-	 * @param str
+	 * 参 数 : str
 	 *            字符串
-	 * @return true: 字符串null或空文字, false: 字符串不是null也不是空文字
+	 * 返 回 : true: 字符串null或空文字, false: 字符串不是null也不是空文字
 	 */
 	public static boolean isNull(String str) {
 		return str == null || str.length() == 0;
@@ -545,9 +547,9 @@ public class StringUtils {
 	/**
 	 * 字符串null或空文字或者全是空白判定方法。
 	 *
-	 * @param str
+	 * 参 数 : str
 	 *            字符串
-	 * @return true: 字符串null或空文字, false: 字符串不是null也不是空文字
+	 * 返 回 : true: 字符串null或空文字, false: 字符串不是null也不是空文字
 	 */
 	public static boolean isEmpty(String str) {
 		return isNull(str) || trim(str).length() == 0;
@@ -556,9 +558,9 @@ public class StringUtils {
 	/**
 	 * 文件名是否许可的检查。
 	 *
-	 * @param fileName
+	 * 参 数 : fileName
 	 *            文件名
-	 * @return 许可 true
+	 * 返 回 : 许可 true
 	 */
 	public static boolean isAllowedFileName(String fileName) {
 		if (StringUtils.isEmpty(fileName)) {
@@ -581,9 +583,9 @@ public class StringUtils {
 	/**
 	 * mail地址是否许可的检查。
 	 *
-	 * @param mailAddress
+	 * 参 数 : mailAddress
 	 *            mail地址
-	 * @return 许可 true
+	 * 返 回 : 许可 true
 	 */
 	public static boolean isAllowedMailAddress(String mailAddress) {
 		if (StringUtils.isEmpty(mailAddress)) {
@@ -603,9 +605,9 @@ public class StringUtils {
 	/**
 	 * 字符串是英数字的判定方法。
 	 *
-	 * @param str
+	 * 参 数 : str
 	 *            字符串
-	 * @return 英数字 true
+	 * 返 回 : 英数字 true
 	 */
 	public static boolean isAsciiAlphaNumCharOnly(String str) {
 		boolean asciiOnly = true;
@@ -624,9 +626,9 @@ public class StringUtils {
 	/**
 	 * 从Windows Vista被POST数据中含有的文字列是否存在的检查方法。
 	 *
-	 * @param str
+	 * 参 数 : str
 	 *            文字列
-	 * @return 存在 true,不存在 false
+	 * 返 回 : 存在 true,不存在 false
 	 */
 	public static boolean isVistaData(String str) {
 		Pattern p = Pattern.compile(".*&#\\d+?;.*");
@@ -637,9 +639,9 @@ public class StringUtils {
 	/**
 	 * 从Windows Vista被POST数据中含有的文字列是否存在的检查方法。
 	 *
-	 * @param str
+	 * 参 数 : str
 	 *            文字列
-	 * @return 通过true,未通过 false
+	 * 返 回 : 通过true,未通过 false
 	 */
 	public static boolean isBankCard(String str) {
 		if (StringUtils.isEmpty(str)) {
@@ -658,9 +660,9 @@ public class StringUtils {
 	/**
 	 * 字符串前后空格（全角，半角）的trim
 	 *
-	 * @param orgstr
+	 * 参 数 : orgstr
 	 *            文字列
-	 * @return trim后的文字列
+	 * 返 回 : trim后的文字列
 	 */
 	public static String trim(String orgstr) {
 		while (orgstr.startsWith(" ") || orgstr.startsWith("　")) {
@@ -675,7 +677,7 @@ public class StringUtils {
 	/**
 	 * 取得UUID。
 	 *
-	 * @return UUID
+	 * 返 回 : UUID
 	 */
 	public static String getUUID() {
 		UUID uuid = UUID.randomUUID();
@@ -685,8 +687,8 @@ public class StringUtils {
 	/***
 	 * MD5加密 生成32位md5码
 	 *
-	 * @param 待加密字符串
-	 * @return 返回32位md5码
+	 * 参 数 : 待加密字符串
+	 * 返 回 : 返回32位md5码
 	 */
 	public static String md5Encode(String inStr) throws Exception {
 		MessageDigest md5 = null;
@@ -714,8 +716,8 @@ public class StringUtils {
 	/**
 	 * SHA加密 生成40位SHA码
 	 *
-	 * @param 待加密字符串
-	 * @return 返回40位SHA码
+	 * 参 数 : 待加密字符串
+	 * 返 回 : 返回40位SHA码
 	 */
 	public static String shaEncode(String inStr) throws Exception {
 		MessageDigest sha = null;
@@ -743,9 +745,9 @@ public class StringUtils {
 	/**
 	 * 密码是否许可的检查。
 	 *
-	 * @param password
+	 * 参 数 : password
 	 *            密码
-	 * @return 许可 true
+	 * 返 回 : 许可 true
 	 */
 	public static boolean isAllowedPassword(String password) {
 		if (StringUtils.isEmpty(password)) {
@@ -818,12 +820,12 @@ public class StringUtils {
 	}
 
 	/**
-	 * 检查充值金额是否正确的方法。<br />
+	 * 检查充值金额是否正确的方法。
 	 * 充值的金额，100的倍数，不大于10,000,000。
 	 *
-	 * @param str
+	 * 参 数 : str
 	 *            要验证的字符串
-	 * @return 正确返回true，否则返回false
+	 * 返 回 : 正确返回true，否则返回false
 	 */
 	public static boolean isRechargeAmount(String str) {
 		String regex = "^(\\d{1,5}|100000)0{2}$";
@@ -833,8 +835,8 @@ public class StringUtils {
 	/**
 	 * 功能：判断字符串是否为日期格式
 	 *
-	 * @param str
-	 * @return
+	 * 参 数 : str
+	 * 返 回 :
 	 */
 	public static boolean isDate(String strDate) {
 		Pattern pattern = Pattern.compile(
@@ -850,9 +852,9 @@ public class StringUtils {
 	/**
 	 * 判断邮政编码是否有效
 	 *
-	 * @param postcode
+	 * 参 数 : postcode
 	 *            邮政编码
-	 * @return
+	 * 返 回 :
 	 */
 	public static boolean isPostcode(String postcode) {
 		String regex = "\\d{6}";
@@ -862,9 +864,9 @@ public class StringUtils {
 	/**
 	 * 判断IP地址是否有效
 	 *
-	 * @param ip
+	 * 参 数 : ip
 	 *            IP地址
-	 * @return
+	 * 返 回 :
 	 */
 	public static boolean isIP(String ip) {
 		String regex = "([1-9]|[1-9][0-9]|1\\d\\d|2[0-4]\\d|25[0-5])\\."
@@ -874,11 +876,11 @@ public class StringUtils {
 	}
 
 	/**
-	 * @param regex
+	 * 参 数 : regex
 	 *            正则表达式字符串
-	 * @param str
+	 * 参 数 : str
 	 *            要匹配的字符串
-	 * @return 如果str 符合 regex的正则表达式格式,返回true, 否则返回 false;
+	 * 返 回 : 如果str 符合 regex的正则表达式格式,返回true, 否则返回 false;
 	 */
 	public static boolean match(String regex, String str) {
 		Pattern pattern = Pattern.compile(regex);
@@ -889,7 +891,7 @@ public class StringUtils {
 	/**
 	 * 生成随机登录密码（默认8位长度）
 	 *
-	 * @return 登录密码的字符串
+	 * 返 回 : 登录密码的字符串
 	 */
 	public static String genUserPassword() {
 		return genRandomNum(8);
@@ -898,7 +900,7 @@ public class StringUtils {
 	/**
 	 * 生成随机支付密码（默认8位长度）
 	 *
-	 * @return 支付密码的字符串
+	 * 返 回 : 支付密码的字符串
 	 */
 	public static String genPaymentPassword() {
 		return genRandomNum(8);
@@ -907,9 +909,9 @@ public class StringUtils {
 	/**
 	 * 生成随机密码
 	 *
-	 * @param pwdLen
+	 * 参 数 : pwdLen
 	 *            生成的密码的总长度
-	 * @return 密码的字符串
+	 * 返 回 : 密码的字符串
 	 */
 	public static String genRandomNum(int pwdLen) {
 		// 35是因为数组是从0开始的，26个字母+10个 数字
@@ -940,9 +942,9 @@ public class StringUtils {
 	/**
 	 * 生成随机密码
 	 *
-	 * @param pwdLen
+	 * 参 数 : pwdLen
 	 *            生成的密码的总长度
-	 * @return 密码的字符串
+	 * 返 回 : 密码的字符串
 	 */
 	public static String genRandomNumByLen(int numLen) {
 		final int maxNum = 10;
@@ -967,10 +969,10 @@ public class StringUtils {
 	/**
 	 * 功能：身份证的有效验证
 	 *
-	 * @param IDStr
+	 * 参 数 : IDStr
 	 *            身份证号
-	 * @return 有效：返回"" 无效：返回String信息
-	 * @throws ParseException
+	 * 返 回 : 有效：返回"" 无效：返回String信息
+	 *  ParseException
 	 */
 	public static boolean isIdCard(String IDStr) {
 		String[] ValCodeArr = { "1", "0", "x", "9", "8", "7", "6", "5", "4", "3", "2" };
@@ -1057,7 +1059,7 @@ public class StringUtils {
 	/**
 	 * 功能：设置地区编码
 	 *
-	 * @return Hashtable 对象
+	 * 返 回 : Hashtable 对象
 	 */
 	private static Hashtable<String, String> getAreaCode() {
 		Hashtable<String, String> hashtable = new Hashtable<>();
@@ -1102,7 +1104,7 @@ public class StringUtils {
 	/**
 	 * 生产请求流水号的方法。
 	 *
-	 * @return 请求流水号
+	 * 返 回 : 请求流水号
 	 */
 	public static String createRequestNo() {
 		String nano = String.valueOf(System.nanoTime());
@@ -1112,7 +1114,7 @@ public class StringUtils {
 	/**
 	 * 字符串截取固定Byte。
 	 *
-	 * @return 截取后字符串
+	 * 返 回 : 截取后字符串
 	 */
 	public static String getSubString(String str, int length) {
 		int count = 0;
@@ -1163,7 +1165,7 @@ public class StringUtils {
 	/**
 	 * 字符串替换。
 	 *
-	 * @return 替换后字符串
+	 * 返 回 : 替换后字符串
 	 */
 	public static String replaceStr(String strInput, String strBefore, String strAfter) {
 		if (strInput == null || "".equals(strInput)) {
@@ -1176,7 +1178,7 @@ public class StringUtils {
 	/**
 	 * 手机号中间4位用*显示。
 	 *
-	 * @return 替换后手机号
+	 * 返 回 : 替换后手机号
 	 */
 	public static String encryptMobile(String mobile) {
 		if (mobile == null || "".equals(mobile)) {
@@ -1292,11 +1294,11 @@ public class StringUtils {
 	/**
 	 * 将字符串空值转换为其他字符串
 	 *
-	 * @param chkVal
+	 * 参 数 : chkVal
 	 *            要判断的字符串
-	 * @param rtnVal
+	 * 参 数 : rtnVal
 	 *            要转换的字符串
-	 * @return 转换后字符串
+	 * 返 回 : 转换后字符串
 	 */
 	public static String null2Other(String chkVal, String rtnVal) {
 		if (!StringUtils.isEmpty(chkVal)) {
@@ -1309,9 +1311,9 @@ public class StringUtils {
 	/**
 	 * 将字符串空值转换为空字符串
 	 *
-	 * @param chkVal
+	 * 参 数 : chkVal
 	 *            要判断的字符串
-	 * @return 转换后字符串
+	 * 返 回 : 转换后字符串
 	 */
 	public static String null2Empty(String chkVal) {
 		return null2Other(chkVal, "");

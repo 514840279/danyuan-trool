@@ -3,20 +3,20 @@ package org.danyuan.application.tools.common.utils;
 import java.io.File;
 
 /**
- * @文件名 FileDelete.java
- * @包名 org.danyuan.application.common.utils.files
- * @描述 TODO(用一句话描述该文件做什么)
- * @时间 2019年1月18日 下午6:27:52
- * @author Administrator
- * @版本 V1.0
+ * 文件名： FileDelete.java
+ * 包 名： org.danyuan.application.common.utils.files
+ * 描 述： TODO(用一句话描述该文件做什么)
+ * 时 间： 2019年1月18日 下午6:27:52
+ * 作 者： Administrator
+ * 版 本： V1.0
  */
 public class FileDelete {
 	/***
 	 * 删除指定文件夹下所有文件
 	 *
-	 * @param path
+	 * 参 数 : path
 	 *            文件夹完整绝对路径
-	 * @return
+	 * 返 回 :
 	 */
 	public static boolean delAllFile(String path) {
 		boolean flag = false;
@@ -50,7 +50,7 @@ public class FileDelete {
 	/***
 	 * 删除文件夹
 	 *
-	 * @param folderPath文件夹完整绝对路径
+	 * 参 数 : folderPath文件夹完整绝对路径
 	 */
 	public static void delFolder(String folderPath) {
 		try {

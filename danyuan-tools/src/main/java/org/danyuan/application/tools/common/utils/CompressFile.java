@@ -9,15 +9,25 @@ import java.util.zip.ZipEntry;
 import java.util.zip.ZipOutputStream;
 
 /**
- * 文件名 ： CompressFile.java 包 名 ： com.dalianyijianxing.wth.changerartofile 描 述 ：
- * 解压缩文件（.rar，.zip） 机能名称： 技能ID ： 作 者 ： Tenghui.Wang 时 间 ： 2015年9月16日 下午4:30:09 版
- * 本 ： V1.0
+ * 文件名 ： CompressFile.java
+ * 包 名 ： com.dalianyijianxing.wth.changerartofile
+ * 描 述 ：解压缩文件（.rar，.zip）
+ * 机能名称：
+ * 技能ID ：
+ * 作 者 ： Tenghui.Wang
+ * 时 间 ： 2015年9月16日 下午4:30:09
+ * 版 本 ： V1.0
  */
 public class CompressFile {
 
 	/**
-	 * 方法名： generalZipFile 功 能： CMD模式解压带密码的rar文件 参 数： @param file 参 数： @param
-	 * dir 返 回： void 作 者 ： Tenghui.Wang 版 本 ： V1.0 @throws
+	 * 方法名： generalZipFile
+	 * 功 能： CMD模式解压带密码的rar文件
+	 * 参 数：  file
+	 * 参 数： dir
+	 * 返 回： void
+	 * 作 者 ： Tenghui.Wang
+	 * 版 本 ： V1.0
 	 */
 	public static void generalRARFile(String file, String password) {
 		// 根据类型，进行相应的解压缩
@@ -57,14 +67,14 @@ public class CompressFile {
 	/**
 	 * 压缩成ZIP 方法1
 	 *
-	 * @param srcDir
+	 * 参 数 : srcDir
 	 *            压缩文件夹路径
-	 * @param out
+	 * 参 数 : out
 	 *            压缩文件输出流
-	 * @param KeepDirStructure
+	 * 参 数 : KeepDirStructure
 	 *            是否保留原来的目录结构,true:保留目录结构;
 	 *            false:所有文件跑到压缩包根目录下(注意：不保留目录结构可能会出现同名文件,会压缩失败)
-	 * @throws RuntimeException
+	 *  RuntimeException
 	 *             压缩失败会抛出运行时异常
 	 */
 
@@ -93,11 +103,11 @@ public class CompressFile {
 	/**
 	 * 压缩成ZIP 方法2
 	 *
-	 * @param srcFiles
+	 * 参 数 : srcFiles
 	 *            需要压缩的文件列表
-	 * @param out
+	 * 参 数 : out
 	 *            压缩文件输出流
-	 * @throws RuntimeException
+	 *  RuntimeException
 	 *             压缩失败会抛出运行时异常
 	 */
 	public static void toZip(List<File> srcFiles, OutputStream out) throws RuntimeException {
@@ -134,16 +144,16 @@ public class CompressFile {
 	/**
 	 * 递归压缩方法
 	 *
-	 * @param sourceFile
+	 * 参 数 : sourceFile
 	 *            源文件
-	 * @param zos
+	 * 参 数 : zos
 	 *            zip输出流
-	 * @param name
+	 * 参 数 : name
 	 *            压缩后的名称
-	 * @param KeepDirStructure
+	 * 参 数 : KeepDirStructure
 	 *            是否保留原来的目录结构,true:保留目录结构;
 	 *            false:所有文件跑到压缩包根目录下(注意：不保留目录结构可能会出现同名文件,会压缩失败)
-	 * @throws Exception
+	 *  Exception
 	 */
 	private static void compress(File sourceFile, ZipOutputStream zos, String name, boolean KeepDirStructure)
 			throws Exception {

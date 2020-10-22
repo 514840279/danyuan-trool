@@ -19,11 +19,11 @@ public class TxtFilesWriter {
 	 * 拼接写入
 	 * 方法名： appendWriteToFile
 	 * 功 能： TODO(这里用一句话描述这个方法的作用)
-	 * 参 数： @param data
-	 * 参 数： @param filepath
+	 * 参 数： data
+	 * 参 数： filepath
 	 * 返 回： void
 	 * 作 者 ： Tenghui.Wang
-	 * @throws
+	 * 
 	 */
 	public static void appendWriteToFile(String data, String filepath) {
 		try {
@@ -51,11 +51,11 @@ public class TxtFilesWriter {
 	 * 重新写入文件
 	 * 方法名： writeToFile
 	 * 功 能： TODO(这里用一句话描述这个方法的作用)
-	 * 参 数： @param data
-	 * 参 数： @param filepath
+	 * 参 数： data
+	 * 参 数： filepath
 	 * 返 回： void
 	 * 作 者 ： Tenghui.Wang
-	 * @throws
+	 * 
 	 */
 	public static void writeToFile(String data, String filepath) {
 		try {

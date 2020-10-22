@@ -1,12 +1,12 @@
 package org.danyuan.application.tools.common.base;
 
 /**
- * @文件名 BaseResult.java
- * @包名 org.danyuan.application.common.base
- * @描述 通用数据返回格式
- * @时间 2019年1月16日 下午5:18:12
- * @author Administrator
- * @版本 V1.0
+ * 文件名： BaseResult.java
+ * 包 名： org.danyuan.application.common.base
+ * 描 述： 通用数据返回格式
+ * 时 间： 2019年1月16日 下午5:18:12
+ * 作 者: Administrator
+ * 版 本： V1.0
  */
 public class BaseResult<T> {
 
@@ -38,8 +38,8 @@ public class BaseResult<T> {
 	}
 	
 	/**
-	 * @方法名 setCode
-	 * @功能 设置变量 code 的值
+	 * 方法名 setCode
+	 * 功 能: 设置变量 code 的值
 	 */
 	public void setCode(Integer code) {
 		this.code = code;

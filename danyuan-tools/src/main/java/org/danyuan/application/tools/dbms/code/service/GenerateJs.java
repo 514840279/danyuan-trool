@@ -8,20 +8,26 @@ import org.danyuan.application.tools.dbms.tabs.po.SysDbmsTabsColsInfo;
 import org.danyuan.application.tools.dbms.tabs.po.SysDbmsTabsInfo;
 
 /**
- * @文件名 GenerateJs.java
- * @包名 org.danyuan.application.dbms.code.service
- * @描述 TODO(用一句话描述该文件做什么)
- * @时间 2019年1月17日 下午2:27:44
- * @author Administrator
- * @版本 V1.0
+ * 文件名 GenerateJs.java
+ * 包名 org.danyuan.application.dbms.code.service
+ * 描述 TODO(用一句话描述该文件做什么)
+ * 时间 2019年1月17日 下午2:27:44
+ * author Administrator
+ * 版本 V1.0
  */
 public class GenerateJs {
 
 	/**
-	 * @方法名 generate @功能 TODO(这里用一句话描述这个方法的作用) @参数 @param
-	 * sysDbmsGenerateCodeInfo @参数 @param tabsInfo @参数 @param
-	 * colsInfos @参数 @param username @参数 @param pathString @返回 void @author
-	 * Administrator @throws
+	 * 方法名 generate
+	 * 功能 TODO(这里用一句话描述这个方法的作用)
+	 * 参数  sysDbmsGenerateCodeInfo
+	 * 参数  tabsInfo
+	 * 参数  colsInfos
+	 * 参数  username
+	 * 参数  pathString
+	 * 返回 void
+	 * 作 者: Administrator
+	 * 
 	 */
 	public static void generate(SysDbmsGenerateCodeInfo sysDbmsGenerateCodeInfo, SysDbmsTabsInfo tabsInfo,
 			List<SysDbmsTabsColsInfo> colsInfos, String username, String pathString) {
@@ -390,10 +396,16 @@ public class GenerateJs {
 	}
 
 	/**
-	 * @方法名 generateDetail @功能 TODO(这里用一句话描述这个方法的作用) @参数 @param
-	 * sysDbmsGenerateCodeInfo @参数 @param tabsInfo @参数 @param
-	 * colsInfos @参数 @param username @参数 @param pathtempString @返回 void @author
-	 * Administrator @throws
+	 * 方法名 generateDetail
+	 * 功能 TODO(这里用一句话描述这个方法的作用)
+	 * 参数 sysDbmsGenerateCodeInfo
+	 * 参数  tabsInfo
+	 * 参数 colsInfos
+	 * 参数  username
+	 * 参数  pathtempString
+	 * 返回 void
+	 * 作 者: Administrator
+	 
 	 */
 	public static void generateDetail(SysDbmsGenerateCodeInfo sysDbmsGenerateCodeInfo, SysDbmsTabsInfo tabsInfo,
 			List<SysDbmsTabsColsInfo> colsInfos, String username, String pathString) {

@@ -18,9 +18,14 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 
 /**
- * 文件名 ： SysDbmsTabsInfoController.java 包 名 ：
- * tk.ainiyue.danyuan.application.dbm.table.controller 描 述 ： TODO(用一句话描述该文件做什么)
- * 机能名称： 技能ID ： 作 者 ： wang 时 间 ： 2017年8月3日 下午3:54:36 版 本 ： V1.0
+ * 文件名 ： SysDbmsTabsInfoController.java 
+ * 包 名 ：tk.ainiyue.danyuan.application.dbm.table.controller 
+ * 描 述 ： TODO(用一句话描述该文件做什么)
+ * 机能名称：
+ * 技能ID ： 
+ * 作 者 ： wang 
+ * 时 间 ： 2017年8月3日 下午3:54:36 
+ * 版 本 ： V1.0
  */
 public class SysDbmsTabsInfoController {
 	//
@@ -111,8 +116,12 @@ public class SysDbmsTabsInfoController {
 	}
 
 	/**
-	 * 方法名： findAll 功 能： TODO(这里用一句话描述这个方法的作用) 参 数： @return 返 回：
-	 * List<SysSeedInfo> 作 者 ： Tenghui.Wang @throws
+	 * 方法名： findAll 
+	 * 功 能： TODO(这里用一句话描述这个方法的作用) 
+	 * 参 数： 返 回 : 
+	 * 返 回：List<SysSeedInfo> 
+	 * 作 者 ： Tenghui.Wang 
+	 * 
 	 */
 	public Page<SysDbmsTabsInfo> page(SysDbmsTabsInfoVo vo) {
 		logger.info("page", SysDbmsTabsInfoController.class);
@@ -120,8 +129,8 @@ public class SysDbmsTabsInfoController {
 	}
 
 	/**
-	 * 方法名： findAll 功 能： TODO(这里用一句话描述这个方法的作用) 参 数： @return 返 回：
-	 * List<SysSeedInfo> 作 者 ： Tenghui.Wang @throws
+	 * 方法名： findAll 功 能： TODO(这里用一句话描述这个方法的作用) 参 数： 返 回 : 返 回：
+	 * List<SysSeedInfo> 作 者 ： Tenghui.Wang 
 	 */
 	public List<SysDbmsTabsInfo> findAll() {
 		logger.info("findAll", SysDbmsTabsInfoController.class);

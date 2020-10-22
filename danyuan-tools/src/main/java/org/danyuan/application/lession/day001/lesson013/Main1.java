@@ -12,7 +12,7 @@ import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 
 /**
- * @author wth
+ * 作 者: wth
  */
 public class Main1 extends Application {
 
@@ -23,7 +23,7 @@ public class Main1 extends Application {
 	/*
 	 * (non-Javadoc)
 	 *
-	 * @see javafx.application.Application#start(javafx.stage.Stage)
+	 *  javafx.application.Application#start(javafx.stage.Stage)
 	 */
 	@Override
 	public void start(Stage primaryStage) throws Exception {

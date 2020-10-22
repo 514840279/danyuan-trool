@@ -64,7 +64,7 @@ public class SysDbmsAdviMessInfo {
 	 * 方法名 ： getUuid
 	 * 功 能 ： 返回变量 uuid 的值
 	 * 
-	 * @return: String
+	 * 返 回 ： String
 	 */
 	public String getUuid() {
 		return uuid;
@@ -75,7 +75,7 @@ public class SysDbmsAdviMessInfo {
 	 * 描 述： TODO(这里用一句话描述这个方法的作用)
 	 * 参 数：
 	 * 作 者 ： Administrator
-	 * @throws
+	 * 
 	 */
 	public SysDbmsAdviMessInfo() {
 		super();
@@ -84,13 +84,13 @@ public class SysDbmsAdviMessInfo {
 	/**
 	 * 构造方法：
 	 * 描 述： TODO(这里用一句话描述这个方法的作用)
-	 * 参 数： @param uuid
-	 * 参 数： @param type
-	 * 参 数： @param tableDesc
-	 * 参 数： @param tableName
-	 * 参 数： @param jdbcUuid
+	 * 参 数： uuid
+	 * 参 数： type
+	 * 参 数： tableDesc
+	 * 参 数： tableName
+	 * 参 数： jdbcUuid
 	 * 作 者 ： Administrator
-	 * @throws
+	 * 
 	 */
 	public SysDbmsAdviMessInfo(String uuid, String type, String tableDesc, String tableName, String jdbcUuid) {
 		super();
@@ -113,7 +113,7 @@ public class SysDbmsAdviMessInfo {
 	 * 方法名 ： getCreateTime
 	 * 功 能 ： 返回变量 createTime 的值
 	 * 
-	 * @return: Date
+	 * 返 回 ： Date
 	 */
 	public Date getCreateTime() {
 		return createTime;
@@ -131,7 +131,7 @@ public class SysDbmsAdviMessInfo {
 	 * 方法名 ： getExecuteSql
 	 * 功 能 ： 返回变量 executeSql 的值
 	 * 
-	 * @return: String
+	 * 返 回 ： String
 	 */
 	public String getExecuteSql() {
 		return executeSql;
@@ -149,7 +149,7 @@ public class SysDbmsAdviMessInfo {
 	 * 方法名 ： getType
 	 * 功 能 ： 返回变量 type 的值
 	 * 
-	 * @return: String
+	 * 返 回 ： String
 	 */
 	public String getType() {
 		return type;
@@ -167,7 +167,7 @@ public class SysDbmsAdviMessInfo {
 	 * 方法名 ： getMessage
 	 * 功 能 ： 返回变量 message 的值
 	 * 
-	 * @return: String
+	 * 返 回 ： String
 	 */
 	public String getMessage() {
 		return message;
@@ -185,7 +185,7 @@ public class SysDbmsAdviMessInfo {
 	 * 方法名 ： getTableDesc
 	 * 功 能 ： 返回变量 tableDesc 的值
 	 * 
-	 * @return: String
+	 * 返 回 ： String
 	 */
 	public String getTableDesc() {
 		return tableDesc;
@@ -203,7 +203,7 @@ public class SysDbmsAdviMessInfo {
 	 * 方法名 ： getTableName
 	 * 功 能 ： 返回变量 tableName 的值
 	 * 
-	 * @return: String
+	 * 返 回 ： String
 	 */
 	public String getTableName() {
 		return tableName;
@@ -221,7 +221,7 @@ public class SysDbmsAdviMessInfo {
 	 * 方法名 ： getJdbcUuid
 	 * 功 能 ： 返回变量 jdbcUuid 的值
 	 * 
-	 * @return: String
+	 * 返 回 ： String
 	 */
 	public String getJdbcUuid() {
 		return jdbcUuid;
@@ -239,7 +239,7 @@ public class SysDbmsAdviMessInfo {
 	 * 方法名 ： getDiscription
 	 * 功 能 ： 返回变量 discription 的值
 	 * 
-	 * @return: String
+	 * 返 回 ： String
 	 */
 	public String getDiscription() {
 		return discription;
@@ -257,7 +257,7 @@ public class SysDbmsAdviMessInfo {
 	 * 方法名 ： getCreateUser
 	 * 功 能 ： 返回变量 createUser 的值
 	 * 
-	 * @return: String
+	 * 返 回 ： String
 	 */
 	public String getCreateUser() {
 		return createUser;
@@ -275,7 +275,7 @@ public class SysDbmsAdviMessInfo {
 	 * 方法名 ： getDeleteFlag
 	 * 功 能 ： 返回变量 deleteFlag 的值
 	 * 
-	 * @return: Integer
+	 * 返 回 ： Integer
 	 */
 	public Integer getDeleteFlag() {
 		return deleteFlag;
@@ -292,8 +292,8 @@ public class SysDbmsAdviMessInfo {
 	/**
 	 * 方法名 ： toString
 	 * 功 能 ： TODO(这里用一句话描述这个方法的作用)
-	 * 参 数 ： @return
-	 * 参 考 ： @see java.lang.Object#toString()
+	 * 参 数 ： 返 回 :
+	 * 参 考 ：  java.lang.Object#toString()
 	 * 作 者 ： Administrator
 	 */
 

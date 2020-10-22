@@ -6,7 +6,7 @@ package org.danyuan.application.lession.day001.lesson002;
 import javafx.application.Application;
 
 /**
- * @author wth
+ * 作 者: wth
  *
  */
 public class Main2 {

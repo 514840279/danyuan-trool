@@ -7,9 +7,9 @@ public class ConvUtils {
 	/**
 	 * 转换值为String型。
 	 *
-	 * @param obj
+	 * 参 数 : obj
 	 *            值
-	 * @return String型
+	 * 返 回 : String型
 	 */
 	public static String convToString(Object obj) {
 		if (obj == null) {
@@ -24,9 +24,9 @@ public class ConvUtils {
 	/**
 	 * 转换值为boolean型。
 	 *
-	 * @param obj
+	 * 参 数 : obj
 	 *            值
-	 * @return boolean型
+	 * 返 回 : boolean型
 	 */
 	public static boolean convToBool(Object obj) {
 		if (obj == null) {
@@ -50,9 +50,9 @@ public class ConvUtils {
 	/**
 	 * 转换bit为boolean型。
 	 *
-	 * @param bytes
+	 * 参 数 : bytes
 	 *            byte
-	 * @return boolean型
+	 * 返 回 : boolean型
 	 */
 	public static boolean convBitToBool(byte[] bytes) {
 		if (bytes == null) {
@@ -64,9 +64,9 @@ public class ConvUtils {
 	/**
 	 * 转换值为int型。
 	 *
-	 * @param obj
+	 * 参 数 : obj
 	 *            值
-	 * @return int型
+	 * 返 回 : int型
 	 */
 	public static int convToInt(Object value) {
 		int intValue = 0;
@@ -85,9 +85,9 @@ public class ConvUtils {
 	/**
 	 * 转换值为int型。
 	 *
-	 * @param obj
+	 * 参 数 : obj
 	 *            值
-	 * @return int型
+	 * 返 回 : int型
 	 */
 	public static long convToLong(Object value) {
 		long longValue = 0L;
@@ -106,9 +106,9 @@ public class ConvUtils {
 	/**
 	 * 转换值为double型。
 	 *
-	 * @param obj
+	 * 参 数 : obj
 	 *            值
-	 * @return double型
+	 * 返 回 : double型
 	 */
 	public static double convToDouble(Object pValue) {
 		double dblValue = 0D;
@@ -126,9 +126,9 @@ public class ConvUtils {
 	/**
 	 * 转换值为BigDecimal型。
 	 *
-	 * @param obj
+	 * 参 数 : obj
 	 *            值
-	 * @return BigDecimal型
+	 * 返 回 : BigDecimal型
 	 */
 	public static BigDecimal convToDecimal(Object value) {
 		BigDecimal dec = new BigDecimal("0");

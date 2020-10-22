@@ -60,10 +60,12 @@ public class MultiDatasourceConfig {
 	}
 
 	/**
-	 * @throws SQLException
-	 * 			@方法名 destroyMultiDatasource @功能
-	 *             TODO(这里用一句话描述这个方法的作用) @参数 @param multiDatasource @返回
-	 *             void @author Administrator @throws
+	 *  SQLException
+	 * 	方法名: destroyMultiDatasource
+	 * 功 能:TODO(这里用一句话描述这个方法的作用)
+	 * 参 数 : multiDatasource
+	 * 返 回：void
+	 * 作 者: Administrator
 	 */
 	void destroyMultiDatasource(Map<String, DataSource> multiDatasource) throws SQLException {
 		Set<String> keySet = multiDatasource.keySet();

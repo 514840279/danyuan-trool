@@ -19,7 +19,7 @@ public class MulteityParam {
 	/**
 	 * 方法名 ： getOperator
 	 * 功 能 ： 返回变量 operator 的值
-	 * @return: String
+	 * 返 回 ： String
 	 */
 	public String getOperator() {
 		return operator;
@@ -36,7 +36,7 @@ public class MulteityParam {
 	/**
 	 * 方法名 ： getUserDesc
 	 * 功 能 ： 返回变量 userDesc 的值
-	 * @return: String
+	 * 返 回 ： String
 	 */
 	public String getUserDesc() {
 		return userDesc;
@@ -53,7 +53,7 @@ public class MulteityParam {
 	/**
 	 * 方法名 ： getUserIndex
 	 * 功 能 ： 返回变量 userIndex 的值
-	 * @return: String
+	 * 返 回 ： String
 	 */
 	public String getUserIndex() {
 		return userIndex;
@@ -70,7 +70,7 @@ public class MulteityParam {
 	/**
 	 * 方法名 ： getValue
 	 * 功 能 ： 返回变量 value 的值
-	 * @return: String
+	 * 返 回 ： String
 	 */
 	public String getValue() {
 		return value;
@@ -87,8 +87,8 @@ public class MulteityParam {
 	/**
 	 * 方法名 ： toString
 	 * 功 能 ： TODO(这里用一句话描述这个方法的作用)
-	 * 参 数 ： @return
-	 * 参 考 ： @see java.lang.Object#toString()
+	 * 参 数 ： 返 回 :
+	 * 参 考 ：  java.lang.Object#toString()
 	 * 作 者 ： Administrator
 	 */
 	

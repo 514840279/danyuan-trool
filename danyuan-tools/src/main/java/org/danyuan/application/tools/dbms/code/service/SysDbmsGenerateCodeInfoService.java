@@ -22,12 +22,12 @@ import org.springframework.data.domain.Example;
 import org.springframework.stereotype.Service;
 
 /**
- * @文件名 SysDbmsGenerateCodeInfoService.java
- * @包名 org.danyuan.application.dbms.code.service
- * @描述 TODO(用一句话描述该文件做什么)
- * @时间 2019年1月16日 下午1:25:04
- * @author Administrator
- * @版本 V1.0
+ * 文件名 SysDbmsGenerateCodeInfoService.java
+ * 包名 org.danyuan.application.dbms.code.service
+ * 描述 TODO(用一句话描述该文件做什么)
+ * 时间 2019年1月16日 下午1:25:04
+ * 作 者: Administrator
+ * 版 本： V1.0
  */
 @Service
 public class SysDbmsGenerateCodeInfoService extends BaseServiceImpl<SysDbmsGenerateCodeInfo>
@@ -40,10 +40,15 @@ public class SysDbmsGenerateCodeInfoService extends BaseServiceImpl<SysDbmsGener
 	public String OUTPUTFILE = "outputfile";
 
 	/**
-	 * @throws FileNotFoundException
-	 * @方法名 generate @功能 TODO(这里用一句话描述这个方法的作用) @参数 @param list @参数 @param
-	 *      username @参数 @param pathString @返回 void @author
-	 *      Administrator @throws
+	  FileNotFoundException
+	 * 方法名 generate
+	 * 功能 TODO(这里用一句话描述这个方法的作用)
+	 * 参数  list
+	 * 参数  username
+	 * 参数  pathString
+	 * 返回 void
+	 * 作 者: Administrator
+	 * 
 	 */
 	public void generate(List<SysDbmsGenerateCodeInfo> list, String username, String pathString)
 			throws FileNotFoundException {
@@ -167,10 +172,16 @@ public class SysDbmsGenerateCodeInfoService extends BaseServiceImpl<SysDbmsGener
 	}
 
 	/**
-	 * @方法名 getGenerateController @功能 生成controller @参数 @param
-	 *      sysDbmsGenerateCodeInfo @参数 @param tabsInfo @参数 @param
-	 *      colsInfos @参数 @param username @参数 @param pathString @返回 void @author
-	 *      Administrator @throws
+	 * 方法名 getGenerateController
+	 * 功能 生成controller
+	 * 参数 sysDbmsGenerateCodeInfo
+	 * 参数 tabsInfo
+	 * 参数 colsInfos
+	 * 参数 username
+	 * 参数 pathString
+	 * 返回 void
+	 * 作 者: Administrator
+	 * 
 	 */
 	private void getGenerateController(SysDbmsGenerateCodeInfo sysDbmsGenerateCodeInfo, SysDbmsTabsInfo tabsInfo,
 			List<SysDbmsTabsColsInfo> colsInfos, String username, String pathString) {
@@ -196,13 +207,13 @@ public class SysDbmsGenerateCodeInfoService extends BaseServiceImpl<SysDbmsGener
 		stringBuilder.append("import org.springframework.web.servlet.ModelAndView;\r\n");
 		stringBuilder.append("\r\n");
 		stringBuilder.append("/**\r\n");
-		stringBuilder.append(" * @文件名 " + sysDbmsGenerateCodeInfo.getClassName() + "Controller.java\r\n");
-		stringBuilder.append(" * @包名 " + sysDbmsGenerateCodeInfo.getClassPath() + ".controller\r\n");
-		stringBuilder.append(" * @描述 controller层\r\n");
+		stringBuilder.append(" * 文件名： " + sysDbmsGenerateCodeInfo.getClassName() + "Controller.java\r\n");
+		stringBuilder.append(" * 包 名： " + sysDbmsGenerateCodeInfo.getClassPath() + ".controller\r\n");
+		stringBuilder.append(" * 描 述： controller层\r\n");
 		SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy年MM月dd日 HH:mm:ss");
-		stringBuilder.append(" * @时间 " + simpleDateFormat.format(new Date()) + "\r\n");
-		stringBuilder.append(" * @author " + username + "\r\n");
-		stringBuilder.append(" * @版本 V1.0\r\n");
+		stringBuilder.append(" * 时 间： " + simpleDateFormat.format(new Date()) + "\r\n");
+		stringBuilder.append(" * 作 者: " + username + "\r\n");
+		stringBuilder.append(" * 版 本： V1.0\r\n");
 		stringBuilder.append(" */\r\n");
 		stringBuilder.append("@RestController\r\n");
 		String subServiceNameString = sysDbmsGenerateCodeInfo.getClassName().substring(0, 1).toLowerCase()
@@ -237,10 +248,16 @@ public class SysDbmsGenerateCodeInfoService extends BaseServiceImpl<SysDbmsGener
 	}
 
 	/**
-	 * @方法名 getGenerateService @功能 service层代码生成 @参数 @param
-	 *      sysDbmsGenerateCodeInfo @参数 @param tabsInfo @参数 @param
-	 *      colsInfos @参数 @param username @参数 @param pathString @返回 void @author
-	 *      Administrator @throws
+	 * 方法名 getGenerateService
+	 * 功能 service层代码生成
+	 * 参数 sysDbmsGenerateCodeInfo
+	 * 参数 tabsInfo
+	 * 参数 colsInfos
+	 * 参数 username
+	 * 参数 pathString
+	 * 返回 void
+	 * 作 者: Administrator
+	 * 
 	 */
 	private void getGenerateService(SysDbmsGenerateCodeInfo sysDbmsGenerateCodeInfo, SysDbmsTabsInfo tabsInfo,
 			List<SysDbmsTabsColsInfo> colsInfos, String username, String pathString) {
@@ -263,13 +280,13 @@ public class SysDbmsGenerateCodeInfoService extends BaseServiceImpl<SysDbmsGener
 		stringBuilder.append("import org.springframework.stereotype.Service;\r\n");
 		stringBuilder.append("\r\n");
 		stringBuilder.append("/**\r\n");
-		stringBuilder.append(" * @文件名 " + sysDbmsGenerateCodeInfo.getClassName() + "Service.java\r\n");
-		stringBuilder.append(" * @包名 " + sysDbmsGenerateCodeInfo.getClassPath() + ".service\r\n");
-		stringBuilder.append(" * @描述 service层\r\n");
+		stringBuilder.append(" * 文件名： " + sysDbmsGenerateCodeInfo.getClassName() + "Service.java\r\n");
+		stringBuilder.append(" * 包 名： " + sysDbmsGenerateCodeInfo.getClassPath() + ".service\r\n");
+		stringBuilder.append(" * 描 述： service层\r\n");
 		SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy年MM月dd日 HH:mm:ss");
-		stringBuilder.append(" * @时间 " + simpleDateFormat.format(new Date()) + "\r\n");
-		stringBuilder.append(" * @author " + username + "\r\n");
-		stringBuilder.append(" * @版本 V1.0\r\n");
+		stringBuilder.append(" * 时 间： " + simpleDateFormat.format(new Date()) + "\r\n");
+		stringBuilder.append(" * 作 者: " + username + "\r\n");
+		stringBuilder.append(" * 版 本： V1.0\r\n");
 		stringBuilder.append(" */\r\n");
 		stringBuilder.append("@Service\r\n");
 		stringBuilder.append("public class " + sysDbmsGenerateCodeInfo.getClassName()
@@ -290,10 +307,16 @@ public class SysDbmsGenerateCodeInfoService extends BaseServiceImpl<SysDbmsGener
 	}
 
 	/**
-	 * @方法名 getGenerateDao @功能 dao层代码生成 @参数 @param
-	 *      sysDbmsGenerateCodeInfo @参数 @param tabsInfo @参数 @param
-	 *      colsInfos @参数 @param username @参数 @param pathString @返回 void @author
-	 *      Administrator @throws
+	 * 方法名 getGenerateDao
+	 * 功能 dao层代码生成
+	 * 参数 sysDbmsGenerateCodeInfo
+	 * 参数 tabsInfo
+	 * 参数 colsInfos
+	 * 参数 username
+	 * 参数 pathString
+	 * 返回 void
+	 * author Administrator
+	 
 	 */
 	private void getGenerateDao(SysDbmsGenerateCodeInfo sysDbmsGenerateCodeInfo, SysDbmsTabsInfo tabsInfo,
 			List<SysDbmsTabsColsInfo> colsInfos, String username, String pathString) {
@@ -311,13 +334,13 @@ public class SysDbmsGenerateCodeInfoService extends BaseServiceImpl<SysDbmsGener
 		stringBuilder.append("import org.springframework.stereotype.Repository;\r\n");
 		stringBuilder.append("\r\n");
 		stringBuilder.append("/**\r\n");
-		stringBuilder.append(" * @文件名 " + sysDbmsGenerateCodeInfo.getClassName() + "Dao.java\r\n");
-		stringBuilder.append(" * @包名 " + sysDbmsGenerateCodeInfo.getClassPath() + ".dao\r\n");
-		stringBuilder.append(" * @描述 dao层\r\n");
+		stringBuilder.append(" * 文件名： " + sysDbmsGenerateCodeInfo.getClassName() + "Dao.java\r\n");
+		stringBuilder.append(" * 包 名： " + sysDbmsGenerateCodeInfo.getClassPath() + ".dao\r\n");
+		stringBuilder.append(" * 描 述： dao层\r\n");
 		SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy年MM月dd日 HH:mm:ss");
-		stringBuilder.append(" * @时间 " + simpleDateFormat.format(new Date()) + "\r\n");
-		stringBuilder.append(" * @author " + username + "\r\n");
-		stringBuilder.append(" * @版本 V1.0\r\n");
+		stringBuilder.append(" * 时 间： " + simpleDateFormat.format(new Date()) + "\r\n");
+		stringBuilder.append(" * 作 者: " + username + "\r\n");
+		stringBuilder.append(" * 版 本： V1.0\r\n");
 		stringBuilder.append(" */\r\n");
 		stringBuilder.append("@Repository\r\n");
 		stringBuilder.append("public interface " + sysDbmsGenerateCodeInfo.getClassName() + "Dao extends BaseDao<"

@@ -11,7 +11,15 @@ import org.danyuan.application.tools.common.base.BaseEntity;
 
 
 /**
- * The persistent class for the sys_table_info database table.
+ *
+*  文件名 ： SysDbmsGenerateCodeInfo.java
+*  包    名 ： org.danyuan.application.tools.dbms.code.po
+*  描    述 ： TODO(用一句话描述该文件做什么)
+*  机能名称：
+*  技能ID ：
+*  作    者 ： wth
+*  时    间 ： 2020年10月22日 下午11:43:02
+*  版    本 ： V1.0
  */
 @Entity
 @Table(name = "sys_dbms_generate_code_info")
@@ -57,7 +65,7 @@ public class SysDbmsGenerateCodeInfo extends BaseEntity implements Serializable 
 	 * 方法名 ： getJdbcUuid
 	 * 功 能 ： 返回变量 jdbcUuid 的值
 	 *
-	 * @return: String
+	 * 返 回 ： String
 	 */
 	public String getJdbcUuid() {
 		return jdbcUuid;
@@ -75,7 +83,7 @@ public class SysDbmsGenerateCodeInfo extends BaseEntity implements Serializable 
 	 * 方法名 ： getTypeUuid
 	 * 功 能 ： 返回变量 typeUuid 的值
 	 *
-	 * @return: String
+	 * 返 回 ： String
 	 */
 	public String getTypeUuid() {
 		return typeUuid;
@@ -93,7 +101,7 @@ public class SysDbmsGenerateCodeInfo extends BaseEntity implements Serializable 
 	 * 方法名 ： getClassPath
 	 * 功 能 ： 返回变量 classPath 的值
 	 *
-	 * @return: String
+	 * 返 回 ： String
 	 */
 	public String getClassPath() {
 		return classPath;
@@ -111,7 +119,7 @@ public class SysDbmsGenerateCodeInfo extends BaseEntity implements Serializable 
 	 * 方法名 ： getClassName
 	 * 功 能 ： 返回变量 className 的值
 	 *
-	 * @return: String
+	 * 返 回 ： String
 	 */
 	public String getClassName() {
 		return className;
@@ -129,7 +137,7 @@ public class SysDbmsGenerateCodeInfo extends BaseEntity implements Serializable 
 	 * 方法名 ： getGenerateEntity
 	 * 功 能 ： 返回变量 generateEntity 的值
 	 *
-	 * @return: Integer
+	 * 返 回 ： Integer
 	 */
 	public Integer getGenerateEntity() {
 		return generateEntity;
@@ -147,7 +155,7 @@ public class SysDbmsGenerateCodeInfo extends BaseEntity implements Serializable 
 	 * 方法名 ： getGenerateDao
 	 * 功 能 ： 返回变量 generateDao 的值
 	 *
-	 * @return: Integer
+	 * 返 回 ： Integer
 	 */
 	public Integer getGenerateDao() {
 		return generateDao;
@@ -165,7 +173,7 @@ public class SysDbmsGenerateCodeInfo extends BaseEntity implements Serializable 
 	 * 方法名 ： getGenerateService
 	 * 功 能 ： 返回变量 generateService 的值
 	 *
-	 * @return: Integer
+	 * 返 回 ： Integer
 	 */
 	public Integer getGenerateService() {
 		return generateService;
@@ -183,7 +191,7 @@ public class SysDbmsGenerateCodeInfo extends BaseEntity implements Serializable 
 	 * 方法名 ： getGenerateController
 	 * 功 能 ： 返回变量 generateController 的值
 	 *
-	 * @return: Integer
+	 * 返 回 ： Integer
 	 */
 	public Integer getGenerateController() {
 		return generateController;
@@ -201,7 +209,7 @@ public class SysDbmsGenerateCodeInfo extends BaseEntity implements Serializable 
 	 * 方法名 ： getGenerateHtml
 	 * 功 能 ： 返回变量 generateHtml 的值
 	 *
-	 * @return: Integer
+	 * 返 回 ： Integer
 	 */
 	public Integer getGenerateHtml() {
 		return generateHtml;
@@ -219,7 +227,7 @@ public class SysDbmsGenerateCodeInfo extends BaseEntity implements Serializable 
 	 * 方法名 ： getGenerateDetail
 	 * 功 能 ： 返回变量 generateDetail 的值
 	 *
-	 * @return: Integer
+	 * 返 回 ： Integer
 	 */
 	public Integer getGenerateDetail() {
 		return generateDetail;
@@ -237,7 +245,7 @@ public class SysDbmsGenerateCodeInfo extends BaseEntity implements Serializable 
 	 * 方法名 ： getGenerateSql
 	 * 功 能 ： 返回变量 generateSql 的值
 	 *
-	 * @return: Integer
+	 * 返 回 ： Integer
 	 */
 	public Integer getGenerateSql() {
 		return generateSql;

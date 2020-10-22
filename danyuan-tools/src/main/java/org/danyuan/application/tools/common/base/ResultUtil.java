@@ -1,12 +1,12 @@
 package org.danyuan.application.tools.common.base;
 
 /**
- * @文件名 ResultUtil.java
- * @包名 org.danyuan.application.common.base
- * @描述 数据返回构造工具类
- * @时间 2019年1月16日 下午5:20:32
- * @author Administrator
- * @版本 V1.0
+ * 文件名： ResultUtil.java
+ * 包 名： org.danyuan.application.common.base
+ * 描 述： 数据返回构造工具类
+ * 时 间： 2019年1月16日 下午5:20:32
+ * 作 者: Administrator
+ * 版 本： V1.0
  */
 public class ResultUtil {
 	

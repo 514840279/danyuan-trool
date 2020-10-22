@@ -84,7 +84,7 @@ public class SysDbmsTabsInfo implements Serializable {
 	/**
 	 * 方法名 ： getUuid 功 能 ： 返回变量 uuid 的值
 	 *
-	 * @return: String
+	 * 返 回 ： String
 	 */
 	public String getUuid() {
 		return uuid;
@@ -100,7 +100,7 @@ public class SysDbmsTabsInfo implements Serializable {
 	/**
 	 * 方法名 ： getJdbcUuid 功 能 ： 返回变量 jdbcUuid 的值
 	 *
-	 * @return: String
+	 * 返 回 ： String
 	 */
 	public String getJdbcUuid() {
 		return jdbcUuid;
@@ -116,7 +116,7 @@ public class SysDbmsTabsInfo implements Serializable {
 	/**
 	 * 方法名 ： getTabsDesc 功 能 ： 返回变量 tabsDesc 的值
 	 *
-	 * @return: String
+	 * 返 回 ： String
 	 */
 	public String getTabsDesc() {
 		return tabsDesc;
@@ -132,7 +132,7 @@ public class SysDbmsTabsInfo implements Serializable {
 	/**
 	 * 方法名 ： getTypeUuid 功 能 ： 返回变量 typeUuid 的值
 	 *
-	 * @return: String
+	 * 返 回 ： String
 	 */
 	public String getTypeUuid() {
 		return typeUuid;
@@ -148,7 +148,7 @@ public class SysDbmsTabsInfo implements Serializable {
 	/**
 	 * 方法名 ： getTabsName 功 能 ： 返回变量 tabsName 的值
 	 *
-	 * @return: String
+	 * 返 回 ： String
 	 */
 	public String getTabsName() {
 		return tabsName;
@@ -164,7 +164,7 @@ public class SysDbmsTabsInfo implements Serializable {
 	/**
 	 * 方法名 ： getTabsOrder 功 能 ： 返回变量 tabsOrder 的值
 	 *
-	 * @return: Integer
+	 * 返 回 ： Integer
 	 */
 	public Integer getTabsOrder() {
 		return tabsOrder;
@@ -180,7 +180,7 @@ public class SysDbmsTabsInfo implements Serializable {
 	/**
 	 * 方法名 ： getTabsRows 功 能 ： 返回变量 tabsRows 的值
 	 *
-	 * @return: Integer
+	 * 返 回 ： Integer
 	 */
 	public Integer getTabsRows() {
 		return tabsRows;
@@ -196,7 +196,7 @@ public class SysDbmsTabsInfo implements Serializable {
 	/**
 	 * 方法名 ： getTabsSpace 功 能 ： 返回变量 tabsSpace 的值
 	 *
-	 * @return: String
+	 * 返 回 ： String
 	 */
 	public String getTabsSpace() {
 		return tabsSpace;
@@ -212,7 +212,7 @@ public class SysDbmsTabsInfo implements Serializable {
 	/**
 	 * 方法名 ： getDiscription 功 能 ： 返回变量 discription 的值
 	 *
-	 * @return: String
+	 * 返 回 ： String
 	 */
 	public String getDiscription() {
 		return discription;
@@ -228,7 +228,7 @@ public class SysDbmsTabsInfo implements Serializable {
 	/**
 	 * 方法名 ： getCreateTime 功 能 ： 返回变量 createTime 的值
 	 *
-	 * @return: Date
+	 * 返 回 ： Date
 	 */
 	public Date getCreateTime() {
 		return createTime;
@@ -244,7 +244,7 @@ public class SysDbmsTabsInfo implements Serializable {
 	/**
 	 * 方法名 ： getCreateUser 功 能 ： 返回变量 createUser 的值
 	 *
-	 * @return: String
+	 * 返 回 ： String
 	 */
 	public String getCreateUser() {
 		return createUser;
@@ -260,7 +260,7 @@ public class SysDbmsTabsInfo implements Serializable {
 	/**
 	 * 方法名 ： getUpdateTime 功 能 ： 返回变量 updateTime 的值
 	 *
-	 * @return: Date
+	 * 返 回 ： Date
 	 */
 	public Date getUpdateTime() {
 		return updateTime;
@@ -276,7 +276,7 @@ public class SysDbmsTabsInfo implements Serializable {
 	/**
 	 * 方法名 ： getUpdateUser 功 能 ： 返回变量 updateUser 的值
 	 *
-	 * @return: String
+	 * 返 回 ： String
 	 */
 	public String getUpdateUser() {
 		return updateUser;
@@ -292,7 +292,7 @@ public class SysDbmsTabsInfo implements Serializable {
 	/**
 	 * 方法名 ： getDeleteFlag 功 能 ： 返回变量 deleteFlag 的值
 	 *
-	 * @return: Integer
+	 * 返 回 ： Integer
 	 */
 	public Integer getDeleteFlag() {
 		return deleteFlag;
@@ -306,7 +306,7 @@ public class SysDbmsTabsInfo implements Serializable {
 	}
 
 	/**
-	 * 方法名 ： toString 功 能 ： TODO(这里用一句话描述这个方法的作用) 参 数 ： @return 参 考 ： @see
+	 * 方法名 ： toString 功 能 ： TODO(这里用一句话描述这个方法的作用) 参 数 ： 返 回 : 参 考 ： 
 	 * java.lang.Object#toString() 作 者 ： wang
 	 */
 
@@ -320,7 +320,7 @@ public class SysDbmsTabsInfo implements Serializable {
 	}
 
 	/**
-	 * 方法名 ： hashCode 功 能 ： TODO(这里用一句话描述这个方法的作用) 参 数 ： @return 参 考 ： @see
+	 * 方法名 ： hashCode 功 能 ： TODO(这里用一句话描述这个方法的作用) 参 数 ： 返 回 : 参 考 ： 
 	 * java.lang.Object#hashCode() 作 者 ： wang
 	 */
 
@@ -346,8 +346,8 @@ public class SysDbmsTabsInfo implements Serializable {
 	}
 
 	/**
-	 * 方法名 ： equals 功 能 ： TODO(这里用一句话描述这个方法的作用) 参 数 ： @param obj 参 数 ： @return 参
-	 * 考 ： @see java.lang.Object#equals(java.lang.Object) 作 者 ： wang
+	 * 方法名 ： equals 功 能 ： TODO(这里用一句话描述这个方法的作用) 参 数 ： 参 数 : obj 参 数 ： 返 回 : 参
+	 * 考 ：  java.lang.Object#equals(java.lang.Object) 作 者 ： wang
 	 */
 
 	@Override
@@ -466,7 +466,7 @@ public class SysDbmsTabsInfo implements Serializable {
 	/**
 	 * 方法名 ： getDbType 功 能 ： 返回变量 dbType 的值
 	 *
-	 * @return: String
+	 * 返 回 ： String
 	 */
 	public String getDbType() {
 		return dbType;

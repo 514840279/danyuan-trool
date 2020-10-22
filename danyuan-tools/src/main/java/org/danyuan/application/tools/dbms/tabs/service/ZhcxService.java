@@ -15,9 +15,14 @@ import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 import org.springframework.stereotype.Service;
 
 /**
- * 文件名 ： ZhcxService.java 包 名 ： com.shumeng.application.zhcx.service 描 述 ：
- * TODO(用一句话描述该文件做什么) 机能名称： 技能ID ： 作 者 ： Administrator 时 间 ： 2018年3月20日
- * 上午9:20:59 版 本 ： V1.0
+ * 文件名 ： ZhcxService.java
+ * 包 名 ： com.shumeng.application.zhcx.service
+ * 描 述 ：TODO(用一句话描述该文件做什么)
+ * 机能名称：
+ * 技能ID ：
+ * 作 者 ： Administrator
+ * 时 间 ： 2018年3月20日上午9:20:59
+ * 版 本 ： V1.0
  */
 @Service
 public class ZhcxService {
@@ -27,8 +32,13 @@ public class ZhcxService {
 	private String database;
 
 	/**
-	 * 方法名： findAllSigleTableByMulitityParam 功 能： 单表多条件查询 参 数： @param vo 参
-	 * 数： @return 返 回： Map<String,Object> 作 者 ： Administrator @throws
+	 * 方法名： findAllSigleTableByMulitityParam
+	 * 功 能： 单表多条件查询
+	 * 参 数： vo
+	 * 参 数：
+	 * 返 回： {@code Map<String,Object>}
+	 * 作 者 ： Administrator
+	 *
 	 */
 	public Map<String, Object> findAllSigleTableByMulteityParam(SysDbmsTabsColsInfoVo vo) {
 		Map<String, Object> map = new HashMap<>();
@@ -125,8 +135,13 @@ public class ZhcxService {
 	}
 
 	/**
-	 * 方法名： findBySingleTableByMulteityParam 功 能： 单表多条件分组查询 参 数： @param vo 参
-	 * 数： @return 返 回： Map<String,Object> 作 者 ： Administrator @throws
+	 * 方法名： findBySingleTableByMulteityParam
+	 * 功 能： 单表多条件分组查询
+	 * 参 数： vo
+	 * 参 数：
+	 * 返 回：{@code  Map<String,Object>}
+	 * 作 者 ： Administrator
+	 *
 	 */
 	public Map<String, Object> findBySingleTableByGroupsAndMulteityParam(SysDbmsTabsColsInfoVo vo) {
 		Map<String, Object> map = new HashMap<>();
@@ -166,9 +181,15 @@ public class ZhcxService {
 	}
 
 	/**
-	 * 方法名： searchSqlByParams 功 能： TODO(这里用一句话描述这个方法的作用) 参 数： @param sql 参
-	 * 数： @param groupListList 参 数： @param paramList 参 数： @param params 返 回：
-	 * void 作 者 ： Administrator @throws
+	 * 方法名： searchSqlByParams
+	 * 功 能： TODO(这里用一句话描述这个方法的作用)
+	 * 参 数： sql
+	 * 参 数： groupListList
+	 * 参 数： paramList
+	 * 参 数： params
+	 * 返 回：void
+	 * 作 者 ： Administrator
+	 *
 	 */
 	private void searchSqlByParams(StringBuffer sql, List<List<SysDbmsTabsColsInfo>> groupListList,
 			List<MulteityParam> paramList, Map<String, String> params) {
@@ -219,8 +240,14 @@ public class ZhcxService {
 	}
 
 	/**
-	 * @param paramList 方法名： sortByUserIndex 功 能： 根据userindex进行组 参 数： @param
-	 * list 参 数： @return 返 回： List<List<SysZhcxCol>> 作 者 ： Administrator @throws
+	 * 参 数 : paramList
+	 * 方法名： sortByUserIndex
+	 * 功 能： 根据userindex进行组
+	 * 参 数：list
+	 * 参 数：
+	 * 返 回： {@code List<List<SysZhcxCol>>}
+	 * 作 者 ： Administrator
+	 *
 	 */
 	private List<List<SysDbmsTabsColsInfo>> sortByUserIndex(List<SysDbmsTabsColsInfo> list) {
 		if (list == null) {

@@ -14,9 +14,15 @@ import org.springframework.data.domain.Page;
 import org.springframework.jdbc.core.JdbcTemplate;
 
 /**
- * 文件名 ： SysDbmsTabsColsInfoController.java 包 名 ：
- * tk.ainiyue.danyuan.application.dbm.column.controller 描 述 ： TODO(用一句话描述该文件做什么)
- * 机能名称： 技能ID ： 作 者 ： wang 时 间 ： 2017年8月3日 下午3:51:35 版 本 ： V1.0
+ * 文件名 ： SysDbmsTabsColsInfoController.java 
+ * 包 名 ：
+ * tk.ainiyue.danyuan.application.dbm.column.controller 
+ * 描 述 ： TODO(用一句话描述该文件做什么)
+ * 机能名称： 
+ * 技能ID ： 
+ * 作 者 ： wang 
+ * 时 间 ： 2017年8月3日 下午3:51:35 
+ * 版 本 ： V1.0
  */
 public class SysDbmsTabsColsInfoController {
 	//
@@ -30,8 +36,12 @@ public class SysDbmsTabsColsInfoController {
 	JdbcTemplate jdbcTemplate;
 
 	/**
-	 * 方法名： findAll 功 能： TODO(这里用一句话描述这个方法的作用) 参 数： @return 返 回：
-	 * List<SysSeedInfo> 作 者 ： Tenghui.Wang @throws
+	 * 方法名： findAll 
+	 * 功 能： TODO(这里用一句话描述这个方法的作用) 
+	 * 参 数： 返 回 : 
+	 * 返 回：List<SysSeedInfo> 
+	 * 作 者 ： Tenghui.Wang 
+	 * 
 	 */
 	public Page<SysDbmsTabsColsInfo> findAll(int pageNumber, int pageSize, String searchText, String uuid) {
 		logger.info("findAll", SysDbmsTabsColsInfoController.class);

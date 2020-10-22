@@ -1,4 +1,45 @@
 .root {
    -fx-background-color: #FFFFFF;
 }
+.button {
+    -fx-background-color: #009688;
+    -fx-background-radius: 0;
+    -fx-text-fill: #000000;
+    -fx-margin: 0;
+}
+.btn {
+	-fx-background-color: #DDDDDD
+}
+.btn-primary{
+	-fx-background-color: #0066FF;
+}
+.btn-info{
+	-fx-background-color: #99FFFF;
+}
+.btn-success{
+	-fx-background-color: #33CCFF;
+}
+.btn-dangerous{
+	-fx-background-color: #FF3366;
+}
+.btn-warning{
+	-fx-background-color: #FFFF99;
+}
+.btn-error{
+	-fx-background-color: #C0C0C0;
+}
+.btn-min {
 
+}
+.btn-small{
+
+}
+.btn-middle{
+
+}
+.btn-large{
+
+}
+.btn-max{
+
+}

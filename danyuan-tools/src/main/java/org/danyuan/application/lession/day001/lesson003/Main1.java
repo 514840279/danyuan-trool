@@ -12,7 +12,7 @@ import javafx.scene.image.Image;
 import javafx.stage.Stage;
 
 /**
- * @author wth
+ * 作 者: wth
  *
  */
 public class Main1 extends Application {

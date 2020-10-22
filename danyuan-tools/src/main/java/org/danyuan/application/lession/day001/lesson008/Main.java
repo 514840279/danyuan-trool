@@ -14,7 +14,7 @@ import javafx.scene.control.Button;
 import javafx.stage.Stage;
 
 /**
- * @author wth
+ * 作 者: wth
  *
  */
 public class Main extends Application {
@@ -28,7 +28,7 @@ public class Main extends Application {
 	/*
 	 * (non-Javadoc)
 	 *
-	 * @see javafx.application.Application#start(javafx.stage.Stage)
+	 *  javafx.application.Application#start(javafx.stage.Stage)
 	 */
 	@Override
 	public void start(Stage primaryStage) throws Exception {

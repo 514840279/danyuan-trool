@@ -130,14 +130,14 @@ public class SysDbmsTabsTypeInfo implements Serializable {
 	}
 	
 	/**
-	 * @return the typeIcon
+	 * 返 回 : the typeIcon
 	 */
 	public String getTypeIcon() {
 		return typeIcon;
 	}
 
 	/**
-	 * @param typeIcon
+	 * 参 数 : typeIcon
 	 *            the typeIcon to set
 	 */
 	public void setTypeIcon(String typeIcon) {
@@ -148,7 +148,7 @@ public class SysDbmsTabsTypeInfo implements Serializable {
 	 * 方法名 ： getUpdateTime
 	 * 功 能 ： 返回变量 updateTime 的值
 	 *
-	 * @return: Date
+	 * 返 回 ： Date
 	 */
 	public Date getUpdateTime() {
 		return updateTime;
@@ -166,7 +166,7 @@ public class SysDbmsTabsTypeInfo implements Serializable {
 	 * 方法名 ： getUpdateUser
 	 * 功 能 ： 返回变量 updateUser 的值
 	 *
-	 * @return: String
+	 * 返 回 ： String
 	 */
 	public String getUpdateUser() {
 		return updateUser;
@@ -184,7 +184,7 @@ public class SysDbmsTabsTypeInfo implements Serializable {
 	 * 方法名 ： getTypeClass
 	 * 功 能 ： 返回变量 typeClass 的值
 	 *
-	 * @return: String
+	 * 返 回 ： String
 	 */
 	public String getTypeClass() {
 		return typeClass;

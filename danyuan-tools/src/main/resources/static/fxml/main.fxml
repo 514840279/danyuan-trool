@@ -6,19 +6,30 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-
-<AnchorPane xmlns="http://javafx.com/javafx/8"
-xmlns:fx="http://javafx.com/fxml/1"
-fx:controller="org.danyuan.application.tools.controller.MainController"
-prefHeight="400.0" prefWidth="600.0"
->
+<VBox xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.danyuan.application.tools.controller.MainController">
    <children>
-       <Button layoutX="30.0" layoutY="242.0" styleClass="btn-warning" text="你好 btn-warning" />
-       <Button layoutX="30.0" layoutY="197.0" styleClass="btn-dangerous" text="你好 btn-dangerous" />
-       <Button layoutX="31.0" layoutY="291.0" styleClass="btn-error" text="你好 btn-error" />
-       <Button layoutX="31.0" layoutY="65.0" styleClass="btn-success" text="你好 btn-success" />
-       <Button layoutX="31.0" layoutY="111.0" styleClass="btn-primary" text="你好 btn-primary" />
-       <Button layoutX="31.0" layoutY="24.0" styleClass="btn" text="你好 btn" />
-       <Button layoutX="34.0" layoutY="152.0" styleClass="btn-info" text="你好 btn-info" />
+      <MenuBar prefHeight="25.0" prefWidth="648.0">
+        <menus>
+          <Menu mnemonicParsing="false" onAction="#showMain" text="主页" />
+          <Menu mnemonicParsing="false" text="应用">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="帮助" />
+            <Menu fx:id="personMenu" mnemonicParsing="false" onAction="#showPerson" text="个人中心" />
+        </menus>
+      </MenuBar>
+      <AnchorPane fx:id="MainContenxt" prefHeight="620.0" prefWidth="1062.0">
+         <children>
+             <Button layoutX="30.0" layoutY="242.0" styleClass="btn-warning" text="你好 btn-warning" />
+             <Button layoutX="30.0" layoutY="197.0" styleClass="btn-dangerous" text="你好 btn-dangerous" />
+             <Button layoutX="31.0" layoutY="291.0" styleClass="btn-error" text="你好 btn-error" />
+             <Button layoutX="31.0" layoutY="65.0" styleClass="btn-success" text="你好 btn-success" />
+             <Button layoutX="31.0" layoutY="111.0" styleClass="btn-primary" text="你好 btn-primary" />
+             <Button layoutX="31.0" layoutY="24.0" styleClass="btn" text="你好 btn" />
+             <Button layoutX="34.0" layoutY="152.0" styleClass="btn-info" text="你好 btn-info" />
+         </children>
+      </AnchorPane>
    </children>
-</AnchorPane>
+</VBox>

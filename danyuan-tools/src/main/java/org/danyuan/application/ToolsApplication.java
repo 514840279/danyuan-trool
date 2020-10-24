@@ -1,7 +1,7 @@
 package org.danyuan.application;
 
 import org.danyuan.application.tools.common.config.SplashScreenCustom;
-import org.danyuan.application.tools.view.LoginView;
+import org.danyuan.application.tools.view.MainView;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 
@@ -12,7 +12,7 @@ import de.felixroske.jfxsupport.AbstractJavaFxApplicationSupport;
 public class ToolsApplication extends AbstractJavaFxApplicationSupport {
 
 	public static void main(String[] args) {
-		launch(ToolsApplication.class, LoginView.class, new SplashScreenCustom(), args);
+		launch(ToolsApplication.class, MainView.class, new SplashScreenCustom(), args);
 	}
 
 }

@@ -4,6 +4,8 @@ import java.util.List;
 
 import org.springframework.data.domain.Page;
 
+import de.felixroske.jfxsupport.FXMLController;
+
 /**
  * 文件名 ： BaseController.java
  * 包 名 ： tk.ainiyue.danyuan.application.common.base
@@ -14,6 +16,7 @@ import org.springframework.data.domain.Page;
  * 时 间 ： 2018年4月3日 下午11:03:46
  * 版 本 ： V1.0
  */
+@FXMLController
 public interface BaseController<T> {
 
 	BaseResult<Page<T>> page(Pagination<T> vo);

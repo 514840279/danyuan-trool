@@ -74,29 +74,6 @@
 					<vendor>Spartajet</vendor>
 				</configuration>
 			</plugin>
-			<plugin>
-			    <groupId>org.apache.maven.plugins</groupId>
-			    <artifactId>maven-javadoc-plugin</artifactId>
-			    <configuration>
-			    	<aggregate>true</aggregate>
-			        <encoding>UTF-8</encoding>
-			        <charset>UTF-8</charset>
-			        <docencoding>UTF-8</docencoding>
-                    <destDir>doc</destDir>
-			    </configuration>
-			    <executions>
-			        <execution>
-			            <id>attach-javadocs</id>
-			            <goals>
-			                <goal>jar</goal>
-			            </goals>
-			            <configuration> <!-- add this to disable checking -->
-			                <additionalparam>-Xdoclint:none</additionalparam>
-			                <encoding>UTF-8</encoding>
-			            </configuration>
-			        </execution>
-			    </executions>
-			</plugin>
 		</plugins>
 	</build>
 </project>

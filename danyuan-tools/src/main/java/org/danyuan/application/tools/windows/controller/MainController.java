@@ -1,7 +1,12 @@
-package org.danyuan.application.tools.controller;
+package org.danyuan.application.tools.windows.controller;
 
 import org.danyuan.application.ToolsApplication;
+import org.danyuan.application.tools.common.base.BaseController;
+import org.danyuan.application.tools.common.base.BaseControllerImpl;
 import org.danyuan.application.tools.dic.view.MainView;
+import org.danyuan.application.tools.windows.po.MainWindows;
+import org.danyuan.application.tools.windows.service.MainWindowsService;
+import org.springframework.beans.factory.annotation.Autowired;
 
 import de.felixroske.jfxsupport.FXMLController;
 import javafx.event.Event;
@@ -19,7 +24,10 @@ import javafx.fxml.FXML;
  * 版 本 ： V1.0
  */
 @FXMLController
-public class MainController {
+public class MainController  extends BaseControllerImpl<MainWindows> implements BaseController<MainWindows>{
+
+	@Autowired
+	MainWindowsService a;
 
 	@FXML
 	public void showPerson(final Event event) {

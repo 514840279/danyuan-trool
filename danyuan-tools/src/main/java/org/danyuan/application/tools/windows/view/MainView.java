@@ -1,4 +1,4 @@
-package org.danyuan.application.tools.view;
+package org.danyuan.application.tools.windows.view;
 
 import de.felixroske.jfxsupport.AbstractFxmlView;
 import de.felixroske.jfxsupport.FXMLView;
@@ -15,9 +15,11 @@ import de.felixroske.jfxsupport.FXMLView;
 *  版    本 ： V1.0
  */
 @FXMLView(value = "/static/fxml/main.fxml"
-, title = "主窗口"
-, encoding = "UTF-8"
-, css = { "/static/dist/css/main.css", "/static/dist/css/global.css" }
+, title = "主窗口", encoding = "UTF-8"
+, css = { "/static/dist/css/main.css", "/static/dist/css/global.css" ,"/org/kordamp/bootstrapfx/bootstrapfx.css"}
 , bundle = "static/i18n/main/message")
 public class MainView extends AbstractFxmlView {
+
+
+
 }

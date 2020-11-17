@@ -1,6 +1,8 @@
 package org.danyuan.application.tools.common.base;
 
+import java.net.URL;
 import java.util.List;
+import java.util.ResourceBundle;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -15,7 +17,7 @@ import org.springframework.data.repository.NoRepositoryBean;
  * 版 本： V1.0
  */
 @NoRepositoryBean
-public class BaseControllerImpl<T> implements BaseController<T> {
+public class BaseControllerImpl<T> implements BaseController<T>  {
 
 	@Autowired
 	BaseService<T> baseService;
@@ -45,7 +47,7 @@ public class BaseControllerImpl<T> implements BaseController<T> {
 	 *
 	 * 方法名 findAll
 	 * 参 数 : info
-	 * 返 回 : 
+	 * 返 回 :
 	 * 参 考 :   org.danyuan.application.common.base.BaseController#findAll(java.lang.Object)
 	 * 作 者: Administrator
 	 */
@@ -197,6 +199,21 @@ public class BaseControllerImpl<T> implements BaseController<T> {
 		} catch (Exception e) {
 			return ResultUtil.error(-1, e.getMessage());
 		}
+	}
+
+	/**
+	*  方法名 ： initialize
+	*  功    能 ： 初始化方法,这里由各个具体类实现
+	*  参    数 ： @param location
+	*  参    数 ： @param resources
+	*  参    考 ： @see javafx.fxml.Initializable#initialize(java.net.URL, java.util.ResourceBundle)
+	*  作    者 ： wth
+	*/
+
+	@Override
+	public void initialize(URL location, ResourceBundle resources) {
+		// TODO Auto-generated method stub
+
 	}
 
 }

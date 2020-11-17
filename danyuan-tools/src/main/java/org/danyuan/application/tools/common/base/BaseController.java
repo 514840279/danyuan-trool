@@ -5,6 +5,7 @@ import java.util.List;
 import org.springframework.data.domain.Page;
 
 import de.felixroske.jfxsupport.FXMLController;
+import javafx.fxml.Initializable;
 
 /**
  * 文件名 ： BaseController.java
@@ -17,7 +18,7 @@ import de.felixroske.jfxsupport.FXMLController;
  * 版 本 ： V1.0
  */
 @FXMLController
-public interface BaseController<T> {
+public interface BaseController<T> extends Initializable{
 
 	BaseResult<Page<T>> page(Pagination<T> vo);
 

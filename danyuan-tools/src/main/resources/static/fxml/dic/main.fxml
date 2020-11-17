@@ -22,7 +22,7 @@
           <TableColumn prefWidth="75.0" text="C2" />
         </columns>
       </TableView>
-      <Button layoutX="207.0" layoutY="27.0" mnemonicParsing="false" text="Button" />
-      <Button layoutX="521.0" layoutY="27.0" mnemonicParsing="false" text="Button" />
+      <Button layoutX="207.0" layoutY="27.0" mnemonicParsing="false" styleClass="btn-primary" text="Button" />
+      <Button layoutX="521.0" layoutY="27.0" mnemonicParsing="false" styleClass="btn-success" text="Button" />
    </children>
 </AnchorPane>

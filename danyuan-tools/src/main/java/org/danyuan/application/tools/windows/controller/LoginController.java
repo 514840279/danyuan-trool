@@ -1,9 +1,9 @@
-package org.danyuan.application.tools.controller;
+package org.danyuan.application.tools.windows.controller;
 
 import org.danyuan.application.ToolsApplication;
 import org.danyuan.application.tools.common.config.MessageUtils;
 import org.danyuan.application.tools.common.config.UserConfig;
-import org.danyuan.application.tools.view.MainView;
+import org.danyuan.application.tools.windows.view.MainView;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import de.felixroske.jfxsupport.FXMLController;

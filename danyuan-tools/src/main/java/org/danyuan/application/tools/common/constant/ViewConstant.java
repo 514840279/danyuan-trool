@@ -1,4 +1,4 @@
-package org.danyuan.application.tools.constant;
+package org.danyuan.application.tools.common.constant;
 
 /**
  *

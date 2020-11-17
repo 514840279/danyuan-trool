@@ -8,7 +8,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<VBox xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.danyuan.application.tools.controller.MainController">
+<VBox xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.danyuan.application.tools.windows.controller.MainController">
    <children>
       <MenuBar prefHeight="25.0" prefWidth="648.0">
         <menus>
@@ -57,7 +57,7 @@
                                  </stroke>
                               </Circle>
                               <Label layoutY="97.0" prefHeight="15.0" prefWidth="120.0" text="代码生成" />
-                              <Button layoutX="60.0" layoutY="120.0" mnemonicParsing="false" onAction="#showPerson" text="Button" />
+                              <Button layoutX="60.0" layoutY="120.0" mnemonicParsing="false" onAction="#showPerson" styleClass="btn-info" text="Button" />
                            </children>
                         </AnchorPane>
                         <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1">
@@ -73,7 +73,7 @@
                                  </stroke>
                               </Circle>
                               <Label layoutY="97.0" prefHeight="15.0" prefWidth="120.0" text="代码生成" />
-                              <Button layoutX="66.0" layoutY="117.0" mnemonicParsing="false" text="Button" />
+                              <Button layoutX="66.0" layoutY="117.0" mnemonicParsing="false" text="Button" styleClass="btn-warning" />
                            </children>
                         </AnchorPane>
                         <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2">

@@ -1,7 +1,7 @@
 package org.danyuan.application;
 
 import org.danyuan.application.tools.common.config.SplashScreenCustom;
-import org.danyuan.application.tools.view.MainView;
+import org.danyuan.application.tools.windows.view.MainView;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 

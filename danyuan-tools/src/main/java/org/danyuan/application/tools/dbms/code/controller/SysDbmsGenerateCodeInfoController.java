@@ -12,6 +12,8 @@ import org.danyuan.application.tools.dbms.code.po.SysDbmsGenerateCodeInfo;
 import org.danyuan.application.tools.dbms.code.service.SysDbmsGenerateCodeInfoService;
 import org.springframework.beans.factory.annotation.Autowired;
 
+import de.felixroske.jfxsupport.FXMLController;
+
 /**
  * 文件名 SysDbmsGenerateCodeInfoController.java
  * 包名 org.danyuan.application.dbms.code.controller
@@ -20,6 +22,7 @@ import org.springframework.beans.factory.annotation.Autowired;
  * author Administrator
  * 版本 V1.0
  */
+@FXMLController
 public class SysDbmsGenerateCodeInfoController extends BaseControllerImpl<SysDbmsGenerateCodeInfo>
 		implements BaseController<SysDbmsGenerateCodeInfo> {
 
@@ -39,5 +42,8 @@ public class SysDbmsGenerateCodeInfoController extends BaseControllerImpl<SysDbm
 	}
 
 	public String OUTPUTFILE = "outputfile";
+
+
+
 
 }

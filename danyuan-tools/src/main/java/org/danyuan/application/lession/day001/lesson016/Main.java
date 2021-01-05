@@ -50,7 +50,7 @@ public class Main extends Application {
 		bp.setCenter(pane5);
 
 		bp.setPadding(new Insets(10d));
-		bp.setMargin(pane1, new Insets(10d));
+		BorderPane.setMargin(pane1, new Insets(10d));
 		// bp.getChildren().addAll(pane1, pane2, pane3, pane4, pane5);
 		Scene scene = new Scene(bp);
 

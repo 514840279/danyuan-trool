@@ -44,7 +44,7 @@ public class Main extends Application {
 		hbox.setPrefSize(300, 200);
 		hbox.setPadding(new Insets(10d));
 		hbox.setSpacing(10);
-		hbox.setMargin(b1, new Insets(10d));
+		HBox.setMargin(b1, new Insets(10d));
 		hbox.setAlignment(Pos.BOTTOM_CENTER);
 
 		Scene scene = new Scene(pane);

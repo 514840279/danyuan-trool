@@ -49,12 +49,12 @@ public class Main1 extends Application {
 		primaryStage.setTitle("lesson13");
 		primaryStage.show();
 
-		pane.setLeftAnchor(pane2, 50d);
-		pane.setRightAnchor(pane2, 0d);
-		pane.setTopAnchor(pane2, 20d);
-		pane.setBottomAnchor(pane2, 50d);
+		AnchorPane.setLeftAnchor(pane2, 50d);
+		AnchorPane.setRightAnchor(pane2, 0d);
+		AnchorPane.setTopAnchor(pane2, 20d);
+		AnchorPane.setBottomAnchor(pane2, 50d);
 
-		pane2.setBottomAnchor(b3, 0.0);
+		AnchorPane.setBottomAnchor(b3, 0.0);
 
 		primaryStage.heightProperty().addListener(new ChangeListener<Number>() {
 
